@@ -5,7 +5,7 @@ import { engine } from "express-handlebars";
 import { fileURLToPath } from "url";
 import fs from "node:fs/promises";
 import session from "express-session";
-//import { sql, setupDB } from "./db.js";
+import {setupDB} from "./db.js";
 
 dotenv.config();
 
@@ -21,8 +21,8 @@ const PARTIALS_DIR = path.join(VIEWS_DIR, "partials");
 // DATABASE INITIALIZATION
 // =============================================
 
-//const db = new Database(DB_PATH);
-//setupDB();
+// DB setup — creates agencies / agency_logos / routes_logos if they don't exist yet
+setupDB();
 //setInterval(runAll, 10000);
 // =============================================
 // VIEW & STATIC CONFIG
