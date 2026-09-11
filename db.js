@@ -8,7 +8,7 @@ const sql = postgres(process.env.LOGO_POSTGRES_URL);
 console.log(`Connection String: ${connectionString}`);
 console.log(`NO SSL-${process.env.DB_POSTGRES_URL_NO_SSL}`);
 console.log(process.env.DB_POSTGRES_URL_BASEURL);
-export async function setupDB() {
+async function setupDB() {
     console.log("Database Connected");
     console.log("Starting DB...");
     try {
@@ -18,7 +18,8 @@ export async function setupDB() {
             created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
             file_name TEXT NOT NULL UNIQUE)`
         ;  } catch (err) {
-    console.error(err);
+        console.error(err);
+    }
 }
 
 export { sql, setupDB };
