@@ -1,46 +1,41 @@
 {
+  "feedsDir": "./public/feeds",
   "agencies": [
-    
     {
-      "url": "https://gitlab.com/LACMTA/gtfs_rail/raw/master/gtfs_rail.zip",
-      "realtimeVehiclePositions": {
-        "url": "https://api.goswift.ly/real-time/lametro-rail/gtfs-rt-vehicle-positions",
-        "headers": {
-          "Authorization": "be6c2a5933d80f7704d2eac5906065c9"
-        }
-      },
-      "realtimeTripUpdates": {
-        "url": "https://api.goswift.ly/real-time/lametro-rail/gtfs-rt-trip-updates",
-        "headers": {
-          "Authorization": "be6c2a5933d80f7704d2eac5906065c9"
-        }
-      }
+      "agencyKey": "LAX-OC",
+      "agencyName": "OCTA",
+      "vehicleUrl": "https://api.octa.net/GTFSRealTime/protoBuf/VehiclePositions.aspx",
+      "tripUrl": "https://api.octa.net/GTFSRealTime/protoBuf/TripUpdates.aspx"
     },
     {
-      "url": "https://metrolinktrains.com/globalassets/about/gtfs/gtfs.zip",
-      "realtimeAlerts": {
-        "url": "https://metrolink-gtfsrt.gbsdigital.us/feed/gtfsrt-alerts",
-        "headers": {
-          "X-Api-Key": "gMpUXrGPJJ8X9Pp2OivQC1czi046utCMabRM3XQg"
-        }
-      },
-      "realtimeVehiclePositions": {
-        "url": "https://metrolink-gtfsrt.gbsdigital.us/feed/gtfsrt-vehicles",
-        "headers": {
-          "X-Api-Key": "gMpUXrGPJJ8X9Pp2OivQC1czi046utCMabRM3XQg"
-        }
-      },
-      "realtimeTripUpdates": {
-        "url": "https://metrolink-gtfsrt.gbsdigital.us/feed/gtfsrt-trips",
-        "headers": {
-          "X-Api-Key": "gMpUXrGPJJ8X9Pp2OivQC1czi046utCMabRM3XQg"
-        }
-      }
+      "agencyKey": "LAX-FH",
+      "agencyName": "Foothill Transit",
+      "staticUrl": "https://foothilltransit.rideralerts.com/myStop/GTFS-Zip.ashx",
+      "vehicleUrl": "https://foothill_3rdparty.rideralerts.com/myStop/GTFS-Realtime.ashx?&Type=VehiclePosition",
+      "tripUrl": "https://foothill_3rdparty.rideralerts.com/myStop/GTFS-Realtime.ashx?&Type=TripUpdate"
     },
     {
-      "url": "https://passio3.com/irvine/passioTransit/gtfs/google_transit.zip",
-      "prefix": "f-9mu-irvine~ca~us"
+      "agencyKey": "LAX-PA",
+      "agencyName": "Pasadena Transit",
+      "staticUrl": "https://rt.pasadenatransit.net/rtt/public/resource/gtfs.zip",
+      "vehicleUrl": "https://rt.pasadenatransit.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+      "tripUrl": "https://rt.pasadenatransit.net/rtt/public/utility/gtfsrealtime.aspx/tripupdate"
+    },
+    {
+      "agencyKey": "LAX-AT",
+      "agencyName": "Arcadia Transit",
+      "vehicleUrl": "https://passio3.com/ArcadiaCity/passioTransit/gtfs/realtime/vehiclePositions",
+      "tripUrl": "https://passio3.com/ArcadiaCity/passioTransit/gtfs/realtime/tripUpdates"
+    },
+    {
+      "agencyKey": "LAX-AC",
+      "agencyName": "Alhambra Community Transit",
+      "staticUrl": "https://passio3.com/alhambraca/passioTransit/gtfs/google_transit.zip"
+    },
+    {
+      "agencyKey": "LAX-BP",
+      "agencyName": "Baldwin Park Shuttle",
+      "staticUrl": "https://passio3.com/baldwinpark/passioTransit/gtfs/google_transit.zip"
     }
-  ],
-  "ignoreDuplicates": true
+  ]
 }

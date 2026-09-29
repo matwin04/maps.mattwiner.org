@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790719023"
+    "timestamp": "1790719499"
   },
   "entity": [
     {
@@ -13,13 +13,12 @@
           "routeId": "4404"
         },
         "position": {
-          "latitude": 34.14181137084961,
-          "longitude": -118.03340911865234,
-          "bearing": 58,
-          "speed": 14.829999923706055
+          "latitude": 34.14277648925781,
+          "longitude": -118.0285415649414,
+          "bearing": 182
         },
         "currentStopSequence": 11,
-        "timestamp": "1790719020",
+        "timestamp": "1790719498",
         "stopId": "133450",
         "vehicle": {
           "id": "12600",
@@ -32,18 +31,18 @@
       "id": "2",
       "vehicle": {
         "trip": {
-          "tripId": "923722",
+          "tripId": "923723",
           "routeId": "4404"
         },
         "position": {
-          "latitude": 34.143211364746094,
-          "longitude": -118.02848052978516,
-          "bearing": 179,
-          "speed": 5.800000190734863
+          "latitude": 34.137996673583984,
+          "longitude": -118.03880310058594,
+          "bearing": 126,
+          "speed": 0.019999999552965164
         },
-        "currentStopSequence": 11,
-        "timestamp": "1790719023",
-        "stopId": "133450",
+        "currentStopSequence": 3,
+        "timestamp": "1790719375",
+        "stopId": "133519",
         "vehicle": {
           "id": "12601",
           "label": "60"

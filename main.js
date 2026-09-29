@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 import { engine } from "express-handlebars";
 import { fileURLToPath } from "url";
 import session from 'express-session';
-import {downloadFeeds} from "./realtime.js";
+import { downloadRealtime, downloadStatic } from "./realtime.js";
 dotenv.config();
 
 const app = express();
@@ -20,8 +20,7 @@ const REALTIME_STALE_MS = 5 * 60 * 1000; // realtime older than 5 min = stale
 
 // =============================================
 // DATABASE INITIALIZATION
-// =============================================
-
+// ======
 
 // =============================================
 // FEED STATUS
@@ -67,26 +66,33 @@ function getFeedStatus() {
             const key = d.name;
             const dir = path.join(FEEDS_DIR, key);
 
-            const files = fs
-                .readdirSync(dir)
-                .filter((f) => !f.endsWith(".tmp"))
-                .sort()
-                .map((name) => {
-                    const stat = fs.statSync(path.join(dir, name));
-                    return {
-                        name,
-                        url: `/public/feeds/${key}/${name}`,
-                        size: formatSize(stat.size),
-                        mtime: stat.mtimeMs,
-                    };
-                });
+            const staticDir = path.join(dir, "static");
+            const realtimeDir = path.join(dir, "realtime");
 
-            const agency = readJson(path.join(dir, "agency.json"));
-            const routes = readJson(path.join(dir, "routes.json"));
-            const stops = readJson(path.join(dir, "stops.json"));
-            const vehicles = readJson(path.join(dir, "vehicles.geojson"));
+            const files = ["static", "realtime"].flatMap((sub) => {
+                const subDir = path.join(dir, sub);
+                if (!fs.existsSync(subDir)) return [];
+                return fs
+                    .readdirSync(subDir)
+                    .filter((f) => !f.endsWith(".tmp"))
+                    .sort()
+                    .map((name) => {
+                        const stat = fs.statSync(path.join(subDir, name));
+                        return {
+                            name: `${sub}/${name}`,
+                            url: `/public/feeds/${key}/${sub}/${name}`,
+                            size: formatSize(stat.size),
+                            mtime: stat.mtimeMs,
+                        };
+                    });
+            });
 
-            const rtFile = files.find((f) => f.name === "vehicle_positions.json");
+            const agency = readJson(path.join(staticDir, "agency.json"));
+            const routes = readJson(path.join(staticDir, "routes.json"));
+            const stops = readJson(path.join(staticDir, "stops.json"));
+            const vehicles = readJson(path.join(realtimeDir, "vehicles.geojson"));
+
+            const rtFile = files.find((f) => f.name === "realtime/vehicle_positions.json");
             const hasStatic = Array.isArray(routes);
             const hasRealtime = Boolean(rtFile);
             const lastUpdated = files.length ? Math.max(...files.map((f) => f.mtime)) : null;
@@ -139,7 +145,11 @@ app.get("/", (req, res) => {
     res.render("index", { feeds: getFeedStatus() });
 });
 app.get("/reload", async (req, res) => {
-    await downloadFeeds();
+    await downloadRealtime();
+    res.redirect("/");
+});
+app.get("/reload-static", async (req, res) => {
+    await downloadStatic();
     res.redirect("/");
 });
 app.get("/transit", async (req, res) => {

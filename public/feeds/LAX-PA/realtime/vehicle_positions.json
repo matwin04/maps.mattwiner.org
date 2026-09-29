@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790719019"
+    "timestamp": "1790719499"
   },
   "entity": [
     {
@@ -12,13 +12,13 @@
           "tripId": "3793"
         },
         "position": {
-          "latitude": 34.16923904418945,
-          "longitude": -118.09841918945312,
-          "speed": 4
+          "latitude": 34.169002532958984,
+          "longitude": -118.13885498046875,
+          "speed": 13
         },
-        "currentStopSequence": 14,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719013",
+        "currentStopSequence": 30,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719494",
         "vehicle": {
           "id": "1",
           "label": "3217"
@@ -33,13 +33,13 @@
           "tripId": "3857"
         },
         "position": {
-          "latitude": 34.155601501464844,
-          "longitude": -118.1131820678711,
-          "speed": 11
+          "latitude": 34.152244567871094,
+          "longitude": -118.0759048461914,
+          "speed": 14
         },
-        "currentStopSequence": 18,
+        "currentStopSequence": 27,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719015",
+        "timestamp": "1790719495",
         "vehicle": {
           "id": "2",
           "label": "3221"
@@ -51,16 +51,16 @@
       "id": "3",
       "vehicle": {
         "trip": {
-          "tripId": "3878"
+          "tripId": "3879"
         },
         "position": {
-          "latitude": 34.18257141113281,
-          "longitude": -118.15961456298828,
-          "speed": 0
+          "latitude": 34.16881561279297,
+          "longitude": -118.14649200439453,
+          "speed": 10
         },
-        "currentStopSequence": 40,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719002",
+        "currentStopSequence": 7,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719497",
         "vehicle": {
           "id": "3",
           "label": "4007"
@@ -75,18 +75,18 @@
           "tripId": "3716"
         },
         "position": {
-          "latitude": 34.1833381652832,
-          "longitude": -118.14898681640625,
+          "latitude": 34.183387756347656,
+          "longitude": -118.14901733398438,
           "speed": 0
         },
         "currentStopSequence": 57,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718870",
+        "timestamp": "1790719410",
         "vehicle": {
           "id": "4",
           "label": "4006"
         },
-        "occupancyStatus": "MANY_SEATS_AVAILABLE"
+        "occupancyStatus": "EMPTY"
       }
     },
     {
@@ -96,13 +96,13 @@
           "tripId": "3656"
         },
         "position": {
-          "latitude": 34.18294143676758,
-          "longitude": -118.15069580078125,
-          "speed": 0
+          "latitude": 34.179176330566406,
+          "longitude": -118.13690948486328,
+          "speed": 4
         },
-        "currentStopSequence": 1,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718967",
+        "currentStopSequence": 4,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719498",
         "vehicle": {
           "id": "5",
           "label": "3292"
@@ -117,33 +117,18 @@
           "tripId": "3688"
         },
         "position": {
-          "latitude": 34.16404342651367,
-          "longitude": -118.13236236572266,
-          "speed": 0
+          "latitude": 34.183349609375,
+          "longitude": -118.14874267578125,
+          "speed": 7
         },
-        "currentStopSequence": 47,
+        "currentStopSequence": 57,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719010",
+        "timestamp": "1790719495",
         "vehicle": {
           "id": "6",
           "label": "3296"
         },
         "occupancyStatus": "EMPTY"
-      }
-    },
-    {
-      "id": "7",
-      "vehicle": {
-        "position": {
-          "latitude": 34.14895248413086,
-          "longitude": -118.07971954345703,
-          "speed": 0
-        },
-        "timestamp": "1790719010",
-        "vehicle": {
-          "id": "7",
-          "label": "5032"
-        }
       }
     },
     {
@@ -154,7 +139,7 @@
           "longitude": -118.11366271972656,
           "speed": 0
         },
-        "timestamp": "1790718977",
+        "timestamp": "1790719338",
         "vehicle": {
           "id": "8",
           "label": "3218"
@@ -168,13 +153,13 @@
           "tripId": "3644"
         },
         "position": {
-          "latitude": 34.127872467041016,
-          "longitude": -118.14746856689453,
+          "latitude": 34.141605377197266,
+          "longitude": -118.1488265991211,
           "speed": 1
         },
-        "currentStopSequence": 31,
+        "currentStopSequence": 38,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719004",
+        "timestamp": "1790719495",
         "vehicle": {
           "id": "10",
           "label": "3224"
@@ -189,13 +174,13 @@
           "tripId": "3815"
         },
         "position": {
-          "latitude": 34.14967346191406,
-          "longitude": -118.14158630371094,
-          "speed": 1
+          "latitude": 34.144474029541016,
+          "longitude": -118.14822387695312,
+          "speed": 4
         },
-        "currentStopSequence": 23,
+        "currentStopSequence": 28,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719018",
+        "timestamp": "1790719499",
         "vehicle": {
           "id": "11",
           "label": "3297"
@@ -207,11 +192,11 @@
       "id": "12",
       "vehicle": {
         "position": {
-          "latitude": 34.165035247802734,
-          "longitude": -118.15619659423828,
-          "speed": 0
+          "latitude": 34.15346145629883,
+          "longitude": -118.15055847167969,
+          "speed": 6
         },
-        "timestamp": "1790718857",
+        "timestamp": "1790719497",
         "vehicle": {
           "id": "12",
           "label": "5030"
@@ -225,13 +210,13 @@
           "tripId": "3598"
         },
         "position": {
-          "latitude": 34.14596176147461,
-          "longitude": -118.13378143310547,
-          "speed": 0
+          "latitude": 34.14584732055664,
+          "longitude": -118.15441131591797,
+          "speed": 12
         },
-        "currentStopSequence": 14,
+        "currentStopSequence": 23,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718997",
+        "timestamp": "1790719498",
         "vehicle": {
           "id": "13",
           "label": "3219"
@@ -240,19 +225,34 @@
       }
     },
     {
+      "id": "14",
+      "vehicle": {
+        "position": {
+          "latitude": 34.14935302734375,
+          "longitude": -118.07970428466797,
+          "speed": 0
+        },
+        "timestamp": "1790719465",
+        "vehicle": {
+          "id": "14",
+          "label": "5033"
+        }
+      }
+    },
+    {
       "id": "16",
       "vehicle": {
         "trip": {
-          "tripId": "3627"
+          "tripId": "3628"
         },
         "position": {
-          "latitude": 34.14584732055664,
-          "longitude": -118.15087127685547,
+          "latitude": 34.145790100097656,
+          "longitude": -118.15182495117188,
           "speed": 7
         },
-        "currentStopSequence": 22,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719016",
+        "currentStopSequence": 3,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719497",
         "vehicle": {
           "id": "16",
           "label": "3223"
@@ -267,13 +267,13 @@
           "tripId": "3926"
         },
         "position": {
-          "latitude": 34.15319061279297,
-          "longitude": -118.16799926757812,
-          "speed": 1
+          "latitude": 34.15792465209961,
+          "longitude": -118.15064239501953,
+          "speed": 3
         },
-        "currentStopSequence": 12,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719018",
+        "currentStopSequence": 20,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719499",
         "vehicle": {
           "id": "17",
           "label": "3220"
@@ -285,11 +285,11 @@
       "id": "18",
       "vehicle": {
         "position": {
-          "latitude": 34.15150833129883,
-          "longitude": -118.11365509033203,
+          "latitude": 34.15148162841797,
+          "longitude": -118.1136245727539,
           "speed": 0
         },
-        "timestamp": "1790718900",
+        "timestamp": "1790719442",
         "vehicle": {
           "id": "18",
           "label": "3293"
@@ -303,13 +303,13 @@
           "tripId": "3700"
         },
         "position": {
-          "latitude": 34.133209228515625,
-          "longitude": -118.147216796875,
-          "speed": 0
+          "latitude": 34.14048767089844,
+          "longitude": -118.13226318359375,
+          "speed": 3
         },
-        "currentStopSequence": 29,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719008",
+        "currentStopSequence": 36,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719498",
         "vehicle": {
           "id": "22",
           "label": "3225"
@@ -324,13 +324,13 @@
           "tripId": "3837"
         },
         "position": {
-          "latitude": 34.14840316772461,
-          "longitude": -118.08056640625,
-          "speed": 4
+          "latitude": 34.150238037109375,
+          "longitude": -118.0738754272461,
+          "speed": 1
         },
-        "currentStopSequence": 1,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719017",
+        "currentStopSequence": 4,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719482",
         "vehicle": {
           "id": "28",
           "label": "3374"
@@ -345,29 +345,29 @@
           "tripId": "3667"
         },
         "position": {
-          "latitude": 34.1447868347168,
-          "longitude": -118.14884185791016,
-          "speed": 8
+          "latitude": 34.155517578125,
+          "longitude": -118.14602661132812,
+          "speed": 13
         },
-        "currentStopSequence": 40,
+        "currentStopSequence": 45,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719018",
+        "timestamp": "1790719498",
         "vehicle": {
           "id": "29",
           "label": "3375"
         },
-        "occupancyStatus": "MANY_SEATS_AVAILABLE"
+        "occupancyStatus": "FEW_SEATS_AVAILABLE"
       }
     },
     {
       "id": "33",
       "vehicle": {
         "position": {
-          "latitude": 34.15622329711914,
-          "longitude": -118.15782165527344,
-          "speed": 26
+          "latitude": 34.19447708129883,
+          "longitude": -118.17757415771484,
+          "speed": 0
         },
-        "timestamp": "1790719017",
+        "timestamp": "1790719372",
         "vehicle": {
           "id": "33",
           "label": "3379"
@@ -381,13 +381,13 @@
           "tripId": "3759"
         },
         "position": {
-          "latitude": 34.1103630065918,
-          "longitude": -118.1933822631836,
+          "latitude": 34.11233901977539,
+          "longitude": -118.18885803222656,
           "speed": 0
         },
-        "currentStopSequence": 1,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719000",
+        "currentStopSequence": 4,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719455",
         "vehicle": {
           "id": "34",
           "label": "5031"
@@ -399,17 +399,17 @@
       "id": "35",
       "vehicle": {
         "trip": {
-          "tripId": "3572"
+          "tripId": "3573"
         },
         "position": {
-          "latitude": 34.144405364990234,
-          "longitude": -118.1131362915039,
-          "bearing": 2.240000009536743,
-          "speed": 1
+          "latitude": 34.14976501464844,
+          "longitude": -118.11327362060547,
+          "bearing": 181.39999389648438,
+          "speed": 0
         },
-        "currentStopSequence": 21,
+        "currentStopSequence": 2,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719015",
+        "timestamp": "1790719484",
         "vehicle": {
           "id": "35",
           "label": "5034"
@@ -420,16 +420,22 @@
     {
       "id": "36",
       "vehicle": {
-        "position": {
-          "latitude": 34.144412994384766,
-          "longitude": -118.1131820678711,
-          "speed": 10
+        "trip": {
+          "tripId": "3956"
         },
-        "timestamp": "1790719016",
+        "position": {
+          "latitude": 34.14059829711914,
+          "longitude": -118.12797546386719,
+          "speed": 0
+        },
+        "currentStopSequence": 1,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719475",
         "vehicle": {
           "id": "36",
           "label": "5035"
-        }
+        },
+        "occupancyStatus": "EMPTY"
       }
     },
     {
@@ -439,14 +445,14 @@
           "tripId": "3712"
         },
         "position": {
-          "latitude": 34.161930084228516,
-          "longitude": -118.15071105957031,
-          "bearing": 180.19000244140625,
-          "speed": 1
+          "latitude": 34.14799118041992,
+          "longitude": -118.14900207519531,
+          "bearing": 184.86000061035156,
+          "speed": 2
         },
-        "currentStopSequence": 10,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719004",
+        "currentStopSequence": 17,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719494",
         "vehicle": {
           "id": "37",
           "label": "5037"
@@ -461,13 +467,13 @@
           "tripId": "3744"
         },
         "position": {
-          "latitude": 34.16181564331055,
-          "longitude": -118.15988159179688,
-          "speed": 1
+          "latitude": 34.14784622192383,
+          "longitude": -118.14897155761719,
+          "speed": 0
         },
-        "currentStopSequence": 35,
+        "currentStopSequence": 43,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719018",
+        "timestamp": "1790719493",
         "vehicle": {
           "id": "38",
           "label": "5038"
@@ -482,14 +488,14 @@
           "tripId": "3772"
         },
         "position": {
-          "latitude": 34.15790939331055,
-          "longitude": -118.15094757080078,
-          "bearing": 269.05999755859375,
-          "speed": 1
+          "latitude": 34.168861389160156,
+          "longitude": -118.14735412597656,
+          "bearing": 89.87999725341797,
+          "speed": 14
         },
-        "currentStopSequence": 27,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719018",
+        "currentStopSequence": 36,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719498",
         "vehicle": {
           "id": "39",
           "label": "5039"
@@ -504,13 +510,13 @@
           "tripId": "3675"
         },
         "position": {
-          "latitude": 34.15802764892578,
-          "longitude": -118.13256072998047,
-          "speed": 0
+          "latitude": 34.144920349121094,
+          "longitude": -118.1324462890625,
+          "speed": 1
         },
-        "currentStopSequence": 14,
+        "currentStopSequence": 21,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719014",
+        "timestamp": "1790719479",
         "vehicle": {
           "id": "40",
           "label": "5036"
@@ -522,11 +528,11 @@
       "id": "41",
       "vehicle": {
         "position": {
-          "latitude": 34.15163803100586,
-          "longitude": -118.11377716064453,
+          "latitude": 34.1516227722168,
+          "longitude": -118.11378479003906,
           "speed": 0
         },
-        "timestamp": "1790718873",
+        "timestamp": "1790719414",
         "vehicle": {
           "id": "41",
           "label": "5043"
@@ -540,13 +546,13 @@
           "tripId": "3973"
         },
         "position": {
-          "latitude": 34.161712646484375,
-          "longitude": -118.0723876953125,
+          "latitude": 34.14876174926758,
+          "longitude": -118.08206939697266,
           "speed": 0
         },
-        "currentStopSequence": 2,
+        "currentStopSequence": 9,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719000",
+        "timestamp": "1790719490",
         "vehicle": {
           "id": "42",
           "label": "5044"

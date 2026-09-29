@@ -2,7 +2,7 @@
   "header": {
     "gtfsRealtimeVersion": "2.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": "1790719015"
+    "timestamp": "1790719480"
   },
   "entity": [
     {
@@ -19,7 +19,7 @@
           "bearing": 224,
           "speed": 0
         },
-        "timestamp": "1790718997",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "1700-a2",
@@ -37,13 +37,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.13597106933594,
-          "longitude": -117.90706634521484,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.13347625732422,
+          "longitude": -117.89850616455078,
+          "bearing": 84,
+          "speed": 9.834879875183105
         },
-        "timestamp": "1790719011",
+        "currentStopSequence": 377,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719446",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1295-a2",
         "vehicle": {
           "id": "1701-a2",
           "label": "1701"
@@ -60,16 +63,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.10443878173828,
-          "longitude": -117.90778350830078,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.08367919921875,
+          "longitude": -117.90788269042969,
+          "bearing": 180,
+          "speed": 3.576319932937622
         },
-        "currentStopSequence": 840,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718992",
+        "currentStopSequence": 1477,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "741-a2",
+        "stopId": "779-a2",
         "vehicle": {
           "id": "1802-a2",
           "label": "1802"
@@ -86,16 +89,13 @@
           "routeId": "20493"
         },
         "position": {
-          "latitude": 34.064754486083984,
-          "longitude": -118.01298522949219,
-          "bearing": 104,
-          "speed": 7.599679946899414
+          "latitude": 34.02907180786133,
+          "longitude": -118.01337432861328,
+          "bearing": 90,
+          "speed": 25.928319931030273
         },
-        "currentStopSequence": 4505,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719003",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "997-a2",
         "vehicle": {
           "id": "1805-a2",
           "label": "1805"
@@ -112,16 +112,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.05649948120117,
-          "longitude": -117.79045104980469,
-          "bearing": 354,
-          "speed": 1.788159966468811
+          "latitude": 34.04899597167969,
+          "longitude": -117.8133316040039,
+          "bearing": 294,
+          "speed": 12.070079803466797
         },
-        "currentStopSequence": 3217,
+        "currentStopSequence": 3719,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718987",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2009-a2",
+        "stopId": "2567-a2",
         "vehicle": {
           "id": "1807-a2",
           "label": "1807"
@@ -138,16 +138,16 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.00495529174805,
-          "longitude": -117.89898681640625,
+          "latitude": 34.01027297973633,
+          "longitude": -117.93193817138672,
           "bearing": 280,
-          "speed": 6.2585601806640625
+          "speed": 16.987520217895508
         },
-        "currentStopSequence": 1781,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718975",
+        "currentStopSequence": 2084,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719470",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3411-a2",
+        "stopId": "3390-a2",
         "vehicle": {
           "id": "1811-a2",
           "label": "1811"
@@ -164,16 +164,16 @@
           "routeId": "10499"
         },
         "position": {
-          "latitude": 34.05651092529297,
-          "longitude": -118.25023651123047,
-          "bearing": 128,
-          "speed": 0
+          "latitude": 34.055824279785156,
+          "longitude": -118.24111938476562,
+          "bearing": 134,
+          "speed": 6.705599784851074
         },
-        "currentStopSequence": 523,
+        "currentStopSequence": 795,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719004",
+        "timestamp": "1790719442",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1745-a1",
+        "stopId": "549-a1",
         "vehicle": {
           "id": "1900-a1",
           "label": "1900"
@@ -190,16 +190,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.075279235839844,
-          "longitude": -117.88969421386719,
-          "bearing": 88,
-          "speed": 7.599679946899414
+          "latitude": 34.07331085205078,
+          "longitude": -117.89012145996094,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 1500,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718960",
+        "currentStopSequence": 1863,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2744-a1",
+        "stopId": "2304-a1",
         "vehicle": {
           "id": "1901-a1",
           "label": "1901"
@@ -216,16 +216,16 @@
           "routeId": "10195"
         },
         "position": {
-          "latitude": 34.02980422973633,
-          "longitude": -117.74032592773438,
-          "bearing": 356,
-          "speed": 6.2585601806640625
+          "latitude": 34.055259704589844,
+          "longitude": -117.73250579833984,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 1498,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719004",
+        "currentStopSequence": 2160,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3711-a1",
+        "stopId": "3058-a1",
         "vehicle": {
           "id": "1903-a1",
           "label": "1903"
@@ -242,21 +242,21 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.112064361572266,
-          "longitude": -117.99846649169922,
-          "bearing": 260,
-          "speed": 2.2351999282836914
+          "latitude": 34.10749435424805,
+          "longitude": -118.02996826171875,
+          "bearing": 254,
+          "speed": 6.2585601806640625
         },
-        "currentStopSequence": 4216,
+        "currentStopSequence": 4620,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1935-a1",
+        "stopId": "2416-a1",
         "vehicle": {
           "id": "1904-a1",
           "label": "1904"
         },
-        "occupancyStatus": "NOT_ACCEPTING_PASSENGERS"
+        "occupancyStatus": "EMPTY"
       }
     },
     {
@@ -268,16 +268,16 @@
           "routeId": "10482"
         },
         "position": {
-          "latitude": 33.98733901977539,
-          "longitude": -117.88461303710938,
-          "bearing": 274,
-          "speed": 0
+          "latitude": 33.988407135009766,
+          "longitude": -117.90370178222656,
+          "bearing": 272,
+          "speed": 2.2351999282836914
         },
-        "currentStopSequence": 3474,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719006",
+        "currentStopSequence": 3827,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719462",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1029-a1",
+        "stopId": "999-a1",
         "vehicle": {
           "id": "1908-a1",
           "label": "1908"
@@ -294,19 +294,45 @@
           "routeId": "10282"
         },
         "position": {
-          "latitude": 34.03548049926758,
-          "longitude": -117.97543334960938,
-          "bearing": 306,
-          "speed": 4.470399856567383
+          "latitude": 34.061248779296875,
+          "longitude": -118.01605224609375,
+          "bearing": 300,
+          "speed": 11.623040199279785
         },
-        "currentStopSequence": 1611,
+        "currentStopSequence": 2380,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2628-a1",
+        "stopId": "3402-a1",
         "vehicle": {
           "id": "1909-a1",
           "label": "1909"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "1910-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b1604D-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10197"
+        },
+        "position": {
+          "latitude": 34.060550689697266,
+          "longitude": -117.75066375732422,
+          "bearing": 90,
+          "speed": 0
+        },
+        "currentStopSequence": 162,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719474",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1719-a1",
+        "vehicle": {
+          "id": "1910-a1",
+          "label": "1910"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -320,13 +346,16 @@
           "routeId": "20295"
         },
         "position": {
-          "latitude": 34.048683166503906,
-          "longitude": -117.81255340576172,
-          "bearing": 294,
-          "speed": 11.623040199279785
+          "latitude": 34.04630661010742,
+          "longitude": -117.841796875,
+          "bearing": 50,
+          "speed": 2.2351999282836914
         },
-        "timestamp": "1790718978",
+        "currentStopSequence": 0,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719449",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "3709-a2",
         "vehicle": {
           "id": "1912-a2",
           "label": "1912"
@@ -343,16 +372,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.117557525634766,
-          "longitude": -117.89028930664062,
+          "latitude": 34.09220504760742,
+          "longitude": -117.8902587890625,
           "bearing": 180,
-          "speed": 10.728960037231445
+          "speed": 0
         },
-        "currentStopSequence": 428,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718992",
+        "currentStopSequence": 960,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "931-a2",
+        "stopId": "1375-a2",
         "vehicle": {
           "id": "2100-a2",
           "label": "2100"
@@ -369,16 +398,16 @@
           "routeId": "20272"
         },
         "position": {
-          "latitude": 34.13951110839844,
-          "longitude": -117.98250579833984,
-          "bearing": 88,
-          "speed": 6.2585601806640625
+          "latitude": 34.132381439208984,
+          "longitude": -117.96751403808594,
+          "bearing": 270,
+          "speed": 10.728960037231445
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 458,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719009",
+        "timestamp": "1790719451",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1800-a2",
+        "stopId": "3656-a2",
         "vehicle": {
           "id": "2103-a2",
           "label": "2103"
@@ -395,16 +424,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.035335540771484,
-          "longitude": -117.91285705566406,
-          "bearing": 2,
-          "speed": 2.2351999282836914
+          "latitude": 34.06178283691406,
+          "longitude": -117.90779876708984,
+          "bearing": 360,
+          "speed": 7.599679946899414
         },
-        "currentStopSequence": 964,
+        "currentStopSequence": 1440,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719010",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3135-a2",
+        "stopId": "744-a2",
         "vehicle": {
           "id": "2104-a2",
           "label": "2104"
@@ -416,19 +445,19 @@
       "id": "2105-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t54B-b2790-sl4-v50-a2",
+          "tripId": "t5DC-b2790-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20272"
         },
         "position": {
-          "latitude": 34.066246032714844,
-          "longitude": -117.92683410644531,
-          "bearing": 228,
-          "speed": 0
+          "latitude": 34.06875228881836,
+          "longitude": -117.93283081054688,
+          "bearing": 272,
+          "speed": 7.152639865875244
         },
         "currentStopSequence": 49,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719002",
+        "timestamp": "1790719451",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2654-a2",
         "vehicle": {
@@ -454,7 +483,7 @@
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718983",
+        "timestamp": "1790719463",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2240-a2",
         "vehicle": {
@@ -473,16 +502,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.09432601928711,
-          "longitude": -117.69601440429688,
-          "bearing": 282,
-          "speed": 3.576319932937622
+          "latitude": 34.0940055847168,
+          "longitude": -117.68973541259766,
+          "bearing": 180,
+          "speed": 1.3411200046539307
         },
-        "currentStopSequence": 0,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718982",
+        "currentStopSequence": 78,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2028-a2",
+        "stopId": "2248-a2",
         "vehicle": {
           "id": "2107-a2",
           "label": "2107"
@@ -504,7 +533,7 @@
           "bearing": 90,
           "speed": 0
         },
-        "timestamp": "1790719005",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2108-a2",
@@ -522,16 +551,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.138824462890625,
-          "longitude": -117.94648742675781,
-          "bearing": 114,
-          "speed": 15.646400451660156
+          "latitude": 34.13347625732422,
+          "longitude": -117.90930938720703,
+          "bearing": 90,
+          "speed": 0.8940799832344055
         },
-        "currentStopSequence": 5066,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718994",
+        "currentStopSequence": 5739,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1785-a2",
+        "stopId": "1301-a2",
         "vehicle": {
           "id": "2110-a2",
           "label": "2110"
@@ -548,16 +577,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 33.994720458984375,
-          "longitude": -117.93048095703125,
-          "bearing": 192,
-          "speed": 6.2585601806640625
+          "latitude": 34.012779235839844,
+          "longitude": -117.92312622070312,
+          "bearing": 24,
+          "speed": 7.152639865875244
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719000",
+        "currentStopSequence": 686,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2199-a2",
+        "stopId": "761-a2",
         "vehicle": {
           "id": "2111-a2",
           "label": "2111"
@@ -574,16 +603,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.06610870361328,
-          "longitude": -117.71931457519531,
-          "bearing": 180,
-          "speed": 10.728960037231445
+          "latitude": 34.055381774902344,
+          "longitude": -117.74231719970703,
+          "bearing": 268,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 1613,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718980",
+        "currentStopSequence": 2171,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719462",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1722-a2",
+        "stopId": "2025-a2",
         "vehicle": {
           "id": "2112-a2",
           "label": "2112"
@@ -600,16 +629,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.11879348754883,
-          "longitude": -117.90755462646484,
-          "bearing": 0,
-          "speed": 5.364480018615723
+          "latitude": 34.13596725463867,
+          "longitude": -117.9070816040039,
+          "bearing": 110,
+          "speed": 1.3411200046539307
         },
-        "currentStopSequence": 2819,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719002",
+        "currentStopSequence": 0,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719450",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "776-a2",
+        "stopId": "177-a2",
         "vehicle": {
           "id": "2113-a2",
           "label": "2113"
@@ -626,16 +655,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.08979415893555,
-          "longitude": -117.93060302734375,
-          "bearing": 272,
-          "speed": 13.411199569702148
+          "latitude": 34.087215423583984,
+          "longitude": -117.95813751220703,
+          "bearing": 260,
+          "speed": 0
         },
-        "currentStopSequence": 2688,
+        "currentStopSequence": 3088,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718987",
+        "timestamp": "1790719460",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3306-a2",
+        "stopId": "3267-a2",
         "vehicle": {
           "id": "2115-a2",
           "label": "2115"
@@ -652,16 +681,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.073692321777344,
-          "longitude": -117.90765380859375,
-          "bearing": 358,
-          "speed": 9.834879875183105
+          "latitude": 34.08702850341797,
+          "longitude": -117.90771484375,
+          "bearing": 350,
+          "speed": 5.811520099639893
         },
-        "currentStopSequence": 1655,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719011",
+        "currentStopSequence": 2126,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719443",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "787-a2",
+        "stopId": "784-a2",
         "vehicle": {
           "id": "2116-a2",
           "label": "2116"
@@ -678,16 +707,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.139488220214844,
-          "longitude": -117.98677825927734,
-          "bearing": 98,
+          "latitude": 34.139610290527344,
+          "longitude": -117.96617889404297,
+          "bearing": 92,
           "speed": 0
         },
-        "currentStopSequence": 4393,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719012",
+        "currentStopSequence": 4800,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1799-a2",
+        "stopId": "1777-a2",
         "vehicle": {
           "id": "2117-a2",
           "label": "2117"
@@ -704,16 +733,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 34.091796875,
-          "longitude": -117.9925765991211,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 34.08575439453125,
+          "longitude": -117.96356964111328,
+          "bearing": 72,
+          "speed": 11.175999641418457
         },
-        "currentStopSequence": 1642,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718989",
+        "currentStopSequence": 2083,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719436",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1969-a2",
+        "stopId": "3214-a2",
         "vehicle": {
           "id": "2118-a2",
           "label": "2118"
@@ -730,16 +759,16 @@
           "routeId": "20270"
         },
         "position": {
-          "latitude": 34.15121078491211,
-          "longitude": -118.00862121582031,
-          "bearing": 88,
-          "speed": 10.728960037231445
+          "latitude": 34.140357971191406,
+          "longitude": -118.00106048583984,
+          "bearing": 90,
+          "speed": 1.788159966468811
         },
-        "currentStopSequence": 561,
+        "currentStopSequence": 900,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718975",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3697-a2",
+        "stopId": "3466-a2",
         "vehicle": {
           "id": "2120-a2",
           "label": "2120"
@@ -756,16 +785,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.1403923034668,
-          "longitude": -118.0099105834961,
-          "bearing": 268,
-          "speed": 9.834879875183105
+          "latitude": 34.13479995727539,
+          "longitude": -118.04266357421875,
+          "bearing": 212,
+          "speed": 0.44703999161720276
         },
-        "currentStopSequence": 1553,
+        "currentStopSequence": 2074,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718998",
+        "timestamp": "1790719471",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1790-a2",
+        "stopId": "2833-a2",
         "vehicle": {
           "id": "2121-a2",
           "label": "2121"
@@ -782,16 +811,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.106571197509766,
-          "longitude": -117.84683990478516,
-          "bearing": 92,
+          "latitude": 34.10658264160156,
+          "longitude": -117.8252944946289,
+          "bearing": 90,
           "speed": 0
         },
-        "currentStopSequence": 3051,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718985",
+        "currentStopSequence": 3449,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "685-a1",
+        "stopId": "688-a1",
         "vehicle": {
           "id": "2123-a1",
           "label": "2123"
@@ -810,11 +839,14 @@
         "position": {
           "latitude": 33.992286682128906,
           "longitude": -117.93026733398438,
-          "bearing": 90,
+          "bearing": 92,
           "speed": 0
         },
-        "timestamp": "1790718997",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719471",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2199-a1",
         "vehicle": {
           "id": "2125-a1",
           "label": "2125"
@@ -831,16 +863,16 @@
           "routeId": "10482"
         },
         "position": {
-          "latitude": 34.0483283996582,
-          "longitude": -117.81218719482422,
-          "bearing": 118,
-          "speed": 5.364480018615723
+          "latitude": 34.02835464477539,
+          "longitude": -117.81083679199219,
+          "bearing": 198,
+          "speed": 10.281920433044434
         },
-        "currentStopSequence": 1562,
+        "currentStopSequence": 2076,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2566-a1",
+        "stopId": "1150-a1",
         "vehicle": {
           "id": "2128-a1",
           "label": "2128"
@@ -857,16 +889,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.05495071411133,
-          "longitude": -117.93923950195312,
-          "bearing": 222,
-          "speed": 12.964159965515137
+          "latitude": 34.06149673461914,
+          "longitude": -117.96439361572266,
+          "bearing": 310,
+          "speed": 13.858240127563477
         },
-        "currentStopSequence": 2913,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719011",
+        "currentStopSequence": 3549,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719448",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1526-a1",
+        "stopId": "1366-a1",
         "vehicle": {
           "id": "2129-a1",
           "label": "2129"
@@ -883,12 +915,12 @@
           "routeId": "10490"
         },
         "position": {
-          "latitude": 33.992069244384766,
+          "latitude": 33.99205780029297,
           "longitude": -117.92987823486328,
           "bearing": 38,
           "speed": 0
         },
-        "timestamp": "1790718993",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2130-a1",
@@ -906,19 +938,45 @@
           "routeId": "10289"
         },
         "position": {
-          "latitude": 33.99673080444336,
-          "longitude": -117.88851928710938,
-          "bearing": 186,
+          "latitude": 33.98857498168945,
+          "longitude": -117.90621185302734,
+          "bearing": 274,
           "speed": 0
         },
-        "currentStopSequence": 1672,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "currentStopSequence": 2264,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719451",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2086-a1",
+        "stopId": "1006-a1",
         "vehicle": {
           "id": "2133-a1",
           "label": "2133"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2134-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b15FC3-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10482"
+        },
+        "position": {
+          "latitude": 34.060569763183594,
+          "longitude": -117.75090026855469,
+          "bearing": 88,
+          "speed": 3.1292800903320312
+        },
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719464",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2158-a1",
+        "vehicle": {
+          "id": "2134-a1",
+          "label": "2134"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -932,16 +990,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.089210510253906,
-          "longitude": -117.69829559326172,
-          "bearing": 178,
+          "latitude": 34.09433364868164,
+          "longitude": -117.69539642333984,
+          "bearing": 276,
           "speed": 0
         },
-        "currentStopSequence": 5460,
+        "currentStopSequence": 0,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718974",
+        "timestamp": "1790719457",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2039-a1",
+        "stopId": "2028-a1",
         "vehicle": {
           "id": "2136-a1",
           "label": "2136"
@@ -958,16 +1016,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.02779769897461,
-          "longitude": -117.76158905029297,
-          "bearing": 40,
-          "speed": 0
+          "latitude": 34.033260345458984,
+          "longitude": -117.75308227539062,
+          "bearing": 98,
+          "speed": 14.305279731750488
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 169,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718993",
+        "timestamp": "1790719470",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2857-a1",
+        "stopId": "2781-a1",
         "vehicle": {
           "id": "2138-a1",
           "label": "2138"
@@ -984,16 +1042,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.05037307739258,
-          "longitude": -117.81745147705078,
-          "bearing": 102,
+          "latitude": 34.06138610839844,
+          "longitude": -117.78662109375,
+          "bearing": 88,
           "speed": 0
         },
-        "currentStopSequence": 3737,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719004",
+        "currentStopSequence": 4622,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719471",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2564-a1",
+        "stopId": "1735-a1",
         "vehicle": {
           "id": "2140-a1",
           "label": "2140"
@@ -1010,16 +1068,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.03977966308594,
-          "longitude": -117.74960327148438,
-          "bearing": 178,
-          "speed": 14.305279731750488
+          "latitude": 34.02809524536133,
+          "longitude": -117.76126098632812,
+          "bearing": 142,
+          "speed": 5.364480018615723
         },
-        "currentStopSequence": 2440,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718993",
+        "currentStopSequence": 0,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1450-a1",
+        "stopId": "2857-a1",
         "vehicle": {
           "id": "2141-a1",
           "label": "2141"
@@ -1036,16 +1094,16 @@
           "routeId": "10286"
         },
         "position": {
-          "latitude": 34.02568817138672,
-          "longitude": -117.8117446899414,
-          "bearing": 12,
-          "speed": 12.517120361328125
+          "latitude": 34.052616119384766,
+          "longitude": -117.78751373291016,
+          "bearing": 82,
+          "speed": 11.623040199279785
         },
-        "currentStopSequence": 1650,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718999",
+        "currentStopSequence": 2158,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719445",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1147-a1",
+        "stopId": "66-a1",
         "vehicle": {
           "id": "2143-a1",
           "label": "2143"
@@ -1062,14 +1120,14 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.0724983215332,
-          "longitude": -118.04488372802734,
-          "bearing": 78,
+          "latitude": 34.07196807861328,
+          "longitude": -118.04273223876953,
+          "bearing": 82,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719003",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1171-a1",
         "vehicle": {
@@ -1088,12 +1146,12 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.095741271972656,
-          "longitude": -117.69461059570312,
-          "bearing": 180,
-          "speed": 0
+          "latitude": 34.096153259277344,
+          "longitude": -117.69389343261719,
+          "bearing": 260,
+          "speed": 5.364480018615723
         },
-        "timestamp": "1790719000",
+        "timestamp": "1790719450",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2148-a1",
@@ -1111,16 +1169,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.11109161376953,
-          "longitude": -118.00405883789062,
-          "bearing": 80,
+          "latitude": 34.106712341308594,
+          "longitude": -117.96526336669922,
+          "bearing": 86,
           "speed": 0
         },
-        "currentStopSequence": 1080,
+        "currentStopSequence": 1491,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1939-a1",
+        "stopId": "3125-a1",
         "vehicle": {
           "id": "2149-a1",
           "label": "2149"
@@ -1137,16 +1195,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.106468200683594,
-          "longitude": -117.87015533447266,
-          "bearing": 266,
-          "speed": 15.646400451660156
+          "latitude": 34.10682678222656,
+          "longitude": -117.90750885009766,
+          "bearing": 272,
+          "speed": 8.493760108947754
         },
-        "currentStopSequence": 2940,
+        "currentStopSequence": 3360,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718982",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "671-a1",
+        "stopId": "627-a1",
         "vehicle": {
           "id": "2153-a1",
           "label": "2153"
@@ -1163,16 +1221,16 @@
           "routeId": "10197"
         },
         "position": {
-          "latitude": 34.08098602294922,
-          "longitude": -117.76665496826172,
-          "bearing": 122,
+          "latitude": 34.0899543762207,
+          "longitude": -117.74217224121094,
+          "bearing": 90,
           "speed": 11.623040199279785
         },
-        "currentStopSequence": 1560,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719004",
+        "currentStopSequence": 2090,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719449",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2670-a1",
+        "stopId": "40-a1",
         "vehicle": {
           "id": "2156-a1",
           "label": "2156"
@@ -1189,16 +1247,16 @@
           "routeId": "10286"
         },
         "position": {
-          "latitude": 33.968223571777344,
-          "longitude": -117.85008239746094,
-          "bearing": 178,
-          "speed": 12.964159965515137
+          "latitude": 33.91747283935547,
+          "longitude": -117.88310241699219,
+          "bearing": 176,
+          "speed": 11.175999641418457
         },
-        "currentStopSequence": 3094,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718987",
+        "currentStopSequence": 3172,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3084-a1",
+        "stopId": "3086-a1",
         "vehicle": {
           "id": "2159-a1",
           "label": "2159"
@@ -1215,16 +1273,16 @@
           "routeId": "10289"
         },
         "position": {
-          "latitude": 34.05056381225586,
-          "longitude": -117.8204345703125,
-          "bearing": 270,
+          "latitude": 34.04646301269531,
+          "longitude": -117.84160614013672,
+          "bearing": 228,
           "speed": 0
         },
-        "currentStopSequence": 49,
+        "currentStopSequence": 348,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719012",
+        "timestamp": "1790719471",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2565-a1",
+        "stopId": "3709-a1",
         "vehicle": {
           "id": "2160-a1",
           "label": "2160"
@@ -1241,12 +1299,12 @@
           "routeId": "10699"
         },
         "position": {
-          "latitude": 34.07222366333008,
-          "longitude": -117.91776275634766,
-          "bearing": 90,
-          "speed": 20.563840866088867
+          "latitude": 34.06359100341797,
+          "longitude": -117.81494903564453,
+          "bearing": 86,
+          "speed": 20.11680030822754
         },
-        "timestamp": "1790719012",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2161-a1",
@@ -1264,16 +1322,16 @@
           "routeId": "10699"
         },
         "position": {
-          "latitude": 34.05317687988281,
-          "longitude": -118.22634887695312,
-          "bearing": 100,
-          "speed": 17.434560775756836
+          "latitude": 34.05979537963867,
+          "longitude": -118.1763916015625,
+          "bearing": 58,
+          "speed": 26.3753604888916
         },
-        "currentStopSequence": 899,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719005",
+        "currentStopSequence": 1380,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719444",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2591-a1",
+        "stopId": "896-a1",
         "vehicle": {
           "id": "2162-a1",
           "label": "2162"
@@ -1285,9 +1343,9 @@
       "id": "2163-a1",
       "vehicle": {
         "trip": {
-          "tripId": "t532-b16021-sl4-v4A-a1",
+          "tripId": "t609-b16021-sl4-v4A-a1",
           "scheduleRelationship": "SCHEDULED",
-          "routeId": "10482"
+          "routeId": "10282"
         },
         "position": {
           "latitude": 33.99201583862305,
@@ -1297,7 +1355,7 @@
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2199-a1",
         "vehicle": {
@@ -1316,16 +1374,16 @@
           "routeId": "10282"
         },
         "position": {
-          "latitude": 34.06309509277344,
-          "longitude": -118.0198974609375,
-          "bearing": 128,
-          "speed": 7.599679946899414
+          "latitude": 34.04486083984375,
+          "longitude": -117.98945617675781,
+          "bearing": 130,
+          "speed": 0
         },
-        "currentStopSequence": 552,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719001",
+        "currentStopSequence": 1080,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719465",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3344-a1",
+        "stopId": "2627-a1",
         "vehicle": {
           "id": "2200-a1",
           "label": "2200"
@@ -1342,16 +1400,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.061798095703125,
-          "longitude": -117.771484375,
-          "bearing": 88,
-          "speed": 14.752320289611816
+          "latitude": 34.06034851074219,
+          "longitude": -117.7524642944336,
+          "bearing": 192,
+          "speed": 7.152639865875244
         },
-        "currentStopSequence": 4924,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718987",
+        "currentStopSequence": 5326,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2882-a1",
+        "stopId": "1718-a1",
         "vehicle": {
           "id": "2201-a1",
           "label": "2201"
@@ -1368,16 +1426,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.11034393310547,
-          "longitude": -117.98416137695312,
-          "bearing": 292,
+          "latitude": 34.10837173461914,
+          "longitude": -118.02438354492188,
+          "bearing": 260,
           "speed": 0
         },
-        "currentStopSequence": 4216,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718993",
+        "currentStopSequence": 4516,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719457",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1935-a1",
+        "stopId": "1926-a1",
         "vehicle": {
           "id": "2202-a1",
           "label": "2202"
@@ -1394,16 +1452,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.135589599609375,
-          "longitude": -117.87263488769531,
+          "latitude": 34.13055419921875,
+          "longitude": -117.89002990722656,
           "bearing": 0,
-          "speed": 6.705599784851074
+          "speed": 8.046719551086426
         },
-        "currentStopSequence": 4864,
+        "currentStopSequence": 5344,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718994",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1603-a1",
+        "stopId": "964-a1",
         "vehicle": {
           "id": "2203-a1",
           "label": "2203"
@@ -1420,16 +1478,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.09624099731445,
-          "longitude": -117.73097229003906,
-          "bearing": 86,
-          "speed": 15.199359893798828
+          "latitude": 34.09452819824219,
+          "longitude": -117.71138763427734,
+          "bearing": 88,
+          "speed": 0
         },
-        "currentStopSequence": 4771,
+        "currentStopSequence": 5040,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718991",
+        "timestamp": "1790719471",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "855-a1",
+        "stopId": "981-a1",
         "vehicle": {
           "id": "2204-a1",
           "label": "2204"
@@ -1446,16 +1504,16 @@
           "routeId": "10282"
         },
         "position": {
-          "latitude": 33.99644470214844,
-          "longitude": -117.96324920654297,
-          "bearing": 274,
-          "speed": 0
+          "latitude": 34.013492584228516,
+          "longitude": -117.97139739990234,
+          "bearing": 290,
+          "speed": 15.646400451660156
         },
-        "currentStopSequence": 642,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "currentStopSequence": 1133,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719445",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1702-a1",
+        "stopId": "1411-a1",
         "vehicle": {
           "id": "2206-a1",
           "label": "2206"
@@ -1472,16 +1530,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.0605583190918,
-          "longitude": -117.75151824951172,
-          "bearing": 266,
-          "speed": 10.281920433044434
+          "latitude": 34.05414962768555,
+          "longitude": -117.75010681152344,
+          "bearing": 176,
+          "speed": 8.493760108947754
         },
-        "currentStopSequence": 1565,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718965",
+        "currentStopSequence": 1967,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1718-a1",
+        "stopId": "1454-a1",
         "vehicle": {
           "id": "2207-a1",
           "label": "2207"
@@ -1498,13 +1556,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.135921478271484,
-          "longitude": -117.88541412353516,
+          "latitude": 34.13594436645508,
+          "longitude": -117.88433074951172,
           "bearing": 90,
-          "speed": 0
+          "speed": 8.940799713134766
         },
-        "timestamp": "1790719008",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1239-a1",
         "vehicle": {
           "id": "2208-a1",
           "label": "2208"
@@ -1521,16 +1582,16 @@
           "routeId": "10495"
         },
         "position": {
-          "latitude": 34.05461120605469,
-          "longitude": -118.20453643798828,
-          "bearing": 62,
-          "speed": 21.45792007446289
+          "latitude": 34.07211685180664,
+          "longitude": -118.0793228149414,
+          "bearing": 88,
+          "speed": 29.951679229736328
         },
-        "currentStopSequence": 1200,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719000",
+        "currentStopSequence": 0,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2593-a1",
+        "stopId": "1188-a1",
         "vehicle": {
           "id": "2210-a1",
           "label": "2210"
@@ -1547,16 +1608,16 @@
           "routeId": "10285"
         },
         "position": {
-          "latitude": 33.96989440917969,
-          "longitude": -117.99183654785156,
-          "bearing": 46,
-          "speed": 15.646400451660156
+          "latitude": 33.99318313598633,
+          "longitude": -117.96858978271484,
+          "bearing": 354,
+          "speed": 11.175999641418457
         },
-        "currentStopSequence": 1387,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718998",
+        "currentStopSequence": 1777,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1002-a1",
+        "stopId": "1689-a1",
         "vehicle": {
           "id": "2214-a1",
           "label": "2214"
@@ -1573,14 +1634,14 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.06419372558594,
-          "longitude": -117.96806335449219,
+          "latitude": 34.0797119140625,
+          "longitude": -117.98957824707031,
           "bearing": 0,
           "speed": 0
         },
         "currentStopSequence": 3549,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718990",
+        "timestamp": "1790719464",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1366-a1",
         "vehicle": {
@@ -1600,11 +1661,11 @@
         },
         "position": {
           "latitude": 33.99271011352539,
-          "longitude": -117.9302749633789,
+          "longitude": -117.93028259277344,
           "bearing": 90,
           "speed": 0
         },
-        "timestamp": "1790719004",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2217-a1",
@@ -1622,16 +1683,16 @@
           "routeId": "10289"
         },
         "position": {
-          "latitude": 34.028167724609375,
-          "longitude": -117.83959197998047,
-          "bearing": 28,
-          "speed": 14.752320289611816
+          "latitude": 34.04662322998047,
+          "longitude": -117.84152221679688,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 2287,
+        "currentStopSequence": 2747,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718994",
+        "timestamp": "1790719452",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1906-a1",
+        "stopId": "3709-a1",
         "vehicle": {
           "id": "2218-a1",
           "label": "2218"
@@ -1648,16 +1709,16 @@
           "routeId": "10195"
         },
         "position": {
-          "latitude": 34.03337860107422,
-          "longitude": -117.75060272216797,
-          "bearing": 268,
-          "speed": 9.387840270996094
+          "latitude": 34.03691864013672,
+          "longitude": -117.78805541992188,
+          "bearing": 258,
+          "speed": 8.493760108947754
         },
-        "currentStopSequence": 1609,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718977",
+        "currentStopSequence": 2230,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2255-a1",
+        "stopId": "729-a1",
         "vehicle": {
           "id": "2222-a1",
           "label": "2222"
@@ -1674,19 +1735,45 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.07670211791992,
-          "longitude": -118.0019302368164,
-          "bearing": 72,
-          "speed": 0.8940799832344055
+          "latitude": 34.07632064819336,
+          "longitude": -117.98472595214844,
+          "bearing": 130,
+          "speed": 16.09343910217285
         },
-        "currentStopSequence": 800,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718982",
+        "currentStopSequence": 1227,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3210-a1",
+        "stopId": "1360-a1",
         "vehicle": {
           "id": "2223-a1",
           "label": "2223"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2226-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DF-b16035-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10495"
+        },
+        "position": {
+          "latitude": 34.046180725097656,
+          "longitude": -118.26211547851562,
+          "bearing": 98,
+          "speed": 1.788159966468811
+        },
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719468",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1188-a1",
+        "vehicle": {
+          "id": "2226-a1",
+          "label": "2226"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -1700,16 +1787,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.066043853759766,
-          "longitude": -117.92727661132812,
-          "bearing": 16,
-          "speed": 0
+          "latitude": 34.07911682128906,
+          "longitude": -117.92577362060547,
+          "bearing": 70,
+          "speed": 3.576319932937622
         },
-        "currentStopSequence": 2700,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719010",
+        "currentStopSequence": 2896,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2642-a1",
+        "stopId": "2651-a1",
         "vehicle": {
           "id": "2227-a1",
           "label": "2227"
@@ -1726,16 +1813,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.0355339050293,
-          "longitude": -117.92491149902344,
-          "bearing": 94,
-          "speed": 13.858240127563477
+          "latitude": 34.02712631225586,
+          "longitude": -117.89773559570312,
+          "bearing": 76,
+          "speed": 12.964159965515137
         },
-        "currentStopSequence": 2579,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718991",
+        "currentStopSequence": 2940,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719465",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "609-a1",
+        "stopId": "591-a1",
         "vehicle": {
           "id": "2300-a1",
           "label": "2300"
@@ -1752,16 +1839,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.050575256347656,
-          "longitude": -117.82023620605469,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.04362487792969,
+          "longitude": -117.8458023071289,
+          "bearing": 244,
+          "speed": 14.305279731750488
         },
-        "currentStopSequence": 1542,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718990",
+        "currentStopSequence": 1800,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2565-a1",
+        "stopId": "3709-a1",
         "vehicle": {
           "id": "2303-a1",
           "label": "2303"
@@ -1778,19 +1865,45 @@
           "routeId": "10285"
         },
         "position": {
-          "latitude": 33.99210739135742,
-          "longitude": -117.93006134033203,
+          "latitude": 33.99211120605469,
+          "longitude": -117.9300537109375,
           "bearing": 104,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718997",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2199-a1",
         "vehicle": {
           "id": "2304-a1",
           "label": "2304"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2306-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b16041-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10490"
+        },
+        "position": {
+          "latitude": 34.04619216918945,
+          "longitude": -118.26275634765625,
+          "bearing": 52,
+          "speed": 0.8940799832344055
+        },
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719457",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1188-a1",
+        "vehicle": {
+          "id": "2306-a1",
+          "label": "2306"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -1804,16 +1917,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.10690689086914,
-          "longitude": -117.93730926513672,
-          "bearing": 90,
-          "speed": 12.964159965515137
+          "latitude": 34.10669708251953,
+          "longitude": -117.90821075439453,
+          "bearing": 92,
+          "speed": 7.152639865875244
         },
-        "currentStopSequence": 1800,
+        "currentStopSequence": 2220,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718991",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "678-a1",
+        "stopId": "626-a1",
         "vehicle": {
           "id": "2308-a1",
           "label": "2308"
@@ -1830,16 +1943,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.09825134277344,
-          "longitude": -117.75721740722656,
-          "bearing": 286,
-          "speed": 15.199359893798828
+          "latitude": 34.104156494140625,
+          "longitude": -117.77982330322266,
+          "bearing": 288,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 1450,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718978",
+        "currentStopSequence": 1665,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719457",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "885-a1",
+        "stopId": "874-a1",
         "vehicle": {
           "id": "2310-a1",
           "label": "2310"
@@ -1856,16 +1969,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.1314697265625,
-          "longitude": -118.06118774414062,
-          "bearing": 268,
-          "speed": 0
+          "latitude": 34.13481140136719,
+          "longitude": -118.07315063476562,
+          "bearing": 358,
+          "speed": 6.705599784851074
         },
-        "currentStopSequence": 2450,
+        "currentStopSequence": 2723,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718995",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3614-a2",
+        "stopId": "6118-a2",
         "vehicle": {
           "id": "2313-a2",
           "label": "2313"
@@ -1882,42 +1995,19 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.06281280517578,
-          "longitude": -118.01945495605469,
+          "latitude": 34.049896240234375,
+          "longitude": -117.99726867675781,
           "bearing": 126,
-          "speed": 9.387840270996094
+          "speed": 13.411199569702148
         },
-        "currentStopSequence": 840,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718997",
+        "currentStopSequence": 1392,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719444",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3344-a2",
+        "stopId": "2627-a2",
         "vehicle": {
           "id": "2317-a2",
           "label": "2317"
-        },
-        "occupancyStatus": "EMPTY"
-      }
-    },
-    {
-      "id": "2319-a2",
-      "vehicle": {
-        "trip": {
-          "tripId": "t5F0-b276A-sl4-v50-a2",
-          "scheduleRelationship": "SCHEDULED",
-          "routeId": "20190"
-        },
-        "position": {
-          "latitude": 34.072288513183594,
-          "longitude": -118.04609680175781,
-          "bearing": 6,
-          "speed": 0
-        },
-        "timestamp": "1790718596",
-        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "vehicle": {
-          "id": "2319-a2",
-          "label": "2319"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -1931,16 +2021,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.076255798339844,
-          "longitude": -118.00431823730469,
-          "bearing": 80,
-          "speed": 8.046719551086426
+          "latitude": 34.07996368408203,
+          "longitude": -117.98766326904297,
+          "bearing": 74,
+          "speed": 13.858240127563477
         },
-        "currentStopSequence": 806,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719010",
+        "currentStopSequence": 1200,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3215-a2",
+        "stopId": "3202-a2",
         "vehicle": {
           "id": "2323-a2",
           "label": "2323"
@@ -1957,16 +2047,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.139835357666016,
-          "longitude": -117.95259094238281,
-          "bearing": 270,
-          "speed": 16.54047966003418
+          "latitude": 34.140594482421875,
+          "longitude": -117.994384765625,
+          "bearing": 268,
+          "speed": 0
         },
-        "currentStopSequence": 701,
+        "currentStopSequence": 1263,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718982",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1773-a2",
+        "stopId": "1817-a2",
         "vehicle": {
           "id": "2324-a2",
           "label": "2324"
@@ -1983,16 +2073,16 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.13353729248047,
-          "longitude": -117.9244155883789,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 34.13667678833008,
+          "longitude": -117.90750122070312,
+          "bearing": 0,
+          "speed": 8.046719551086426
         },
-        "currentStopSequence": 4530,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719001",
+        "currentStopSequence": 4848,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719472",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1311-a2",
+        "stopId": "737-a2",
         "vehicle": {
           "id": "2400-a2",
           "label": "2400"
@@ -2009,16 +2099,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.01171875,
-          "longitude": -117.96604919433594,
-          "bearing": 108,
-          "speed": 5.364480018615723
+          "latitude": 34.01033401489258,
+          "longitude": -117.9615707397461,
+          "bearing": 110,
+          "speed": 15.646400451660156
         },
-        "currentStopSequence": 4426,
+        "currentStopSequence": 4560,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719005",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1399-a2",
+        "stopId": "3035-a2",
         "vehicle": {
           "id": "2401-a2",
           "label": "2401"
@@ -2035,13 +2125,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.03805923461914,
-          "longitude": -118.263427734375,
-          "bearing": 16,
+          "latitude": 34.042442321777344,
+          "longitude": -118.259765625,
+          "bearing": 128,
           "speed": 0
         },
-        "timestamp": "1790719005",
+        "currentStopSequence": 360,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719464",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2106-a2",
         "vehicle": {
           "id": "2405-a2",
           "label": "2405"
@@ -2058,16 +2151,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 34.04399108886719,
-          "longitude": -117.92579650878906,
-          "bearing": 180,
-          "speed": 8.940799713134766
+          "latitude": 34.0302619934082,
+          "longitude": -117.91264343261719,
+          "bearing": 116,
+          "speed": 10.281920433044434
         },
-        "currentStopSequence": 3485,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718977",
+        "currentStopSequence": 3780,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719452",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2595-a2",
+        "stopId": "555-a2",
         "vehicle": {
           "id": "2406-a2",
           "label": "2406"
@@ -2079,19 +2172,19 @@
       "id": "2407-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t532-b2760-sl4-v50-a2",
+          "tripId": "t5DC-b2760-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.07212448120117,
-          "longitude": -118.04553985595703,
+          "latitude": 34.07112503051758,
+          "longitude": -118.04286193847656,
           "bearing": 0,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718989",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1172-a2",
         "vehicle": {
@@ -2110,16 +2203,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.07184600830078,
-          "longitude": -117.92555236816406,
-          "bearing": 64,
-          "speed": 0.44703999161720276
+          "latitude": 34.06650161743164,
+          "longitude": -117.83243560791016,
+          "bearing": 116,
+          "speed": 19.222719192504883
         },
-        "currentStopSequence": 4316,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718999",
+        "currentStopSequence": 5280,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "493-a2",
+        "stopId": "3698-a2",
         "vehicle": {
           "id": "2408-a2",
           "label": "2408"
@@ -2141,7 +2234,7 @@
           "bearing": 90,
           "speed": 0
         },
-        "timestamp": "1790719005",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2411-a2",
@@ -2164,7 +2257,7 @@
           "bearing": 0,
           "speed": 0
         },
-        "timestamp": "1790719003",
+        "timestamp": "1790719183",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2412-a2",
@@ -2182,12 +2275,12 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.1368408203125,
-          "longitude": -117.90613555908203,
+          "latitude": 34.13685607910156,
+          "longitude": -117.9061508178711,
           "bearing": 0,
           "speed": 0
         },
-        "timestamp": "1790718987",
+        "timestamp": "1790719017",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2414-a2",
@@ -2205,16 +2298,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.04383850097656,
-          "longitude": -117.84827423095703,
-          "bearing": 332,
-          "speed": 8.046719551086426
+          "latitude": 34.05679702758789,
+          "longitude": -117.86890411376953,
+          "bearing": 262,
+          "speed": 14.305279731750488
         },
-        "currentStopSequence": 548,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718994",
+        "currentStopSequence": 1013,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3259-a2",
+        "stopId": "3256-a2",
         "vehicle": {
           "id": "2415-a2",
           "label": "2415"
@@ -2231,16 +2324,16 @@
           "routeId": "20274"
         },
         "position": {
-          "latitude": 33.9985237121582,
-          "longitude": -118.05453491210938,
-          "bearing": 138,
-          "speed": 1.3411200046539307
+          "latitude": 34.01516342163086,
+          "longitude": -118.04413604736328,
+          "bearing": 50,
+          "speed": 1.788159966468811
         },
-        "currentStopSequence": 0,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718990",
+        "currentStopSequence": 248,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "847-a2",
+        "stopId": "2748-a2",
         "vehicle": {
           "id": "2416-a2",
           "label": "2416"
@@ -2257,16 +2350,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 33.9955940246582,
-          "longitude": -117.92989349365234,
-          "bearing": 278,
-          "speed": 1.3411200046539307
+          "latitude": 33.99003601074219,
+          "longitude": -117.91728973388672,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 483,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718996",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2199-a2",
+        "stopId": "2894-a2",
         "vehicle": {
           "id": "2417-a2",
           "label": "2417"
@@ -2283,16 +2376,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.144649505615234,
-          "longitude": -118.1504898071289,
-          "bearing": 180,
-          "speed": 0
+          "latitude": 34.14588165283203,
+          "longitude": -118.13465881347656,
+          "bearing": 88,
+          "speed": 7.152639865875244
         },
-        "currentStopSequence": 258,
+        "currentStopSequence": 492,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719001",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "15-a2",
+        "stopId": "1070-a2",
         "vehicle": {
           "id": "2418-a2",
           "label": "2418"
@@ -2309,16 +2402,16 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.07228088378906,
-          "longitude": -118.04529571533203,
-          "bearing": 276,
-          "speed": 0
+          "latitude": 34.07114791870117,
+          "longitude": -118.04244995117188,
+          "bearing": 88,
+          "speed": 0.44703999161720276
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718963",
+        "currentStopSequence": 197,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1172-a2",
+        "stopId": "2224-a2",
         "vehicle": {
           "id": "2419-a2",
           "label": "2419"
@@ -2335,13 +2428,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.134063720703125,
-          "longitude": -117.90895080566406,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.1359977722168,
+          "longitude": -117.90702056884766,
+          "bearing": 100,
+          "speed": 1.3411200046539307
         },
-        "timestamp": "1790718994",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "177-a2",
         "vehicle": {
           "id": "2420-a2",
           "label": "2420"
@@ -2358,16 +2454,16 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.10755920410156,
-          "longitude": -117.93407440185547,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.128849029541016,
+          "longitude": -117.9336166381836,
+          "bearing": 2,
+          "speed": 2.2351999282836914
         },
-        "currentStopSequence": 3780,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718995",
+        "currentStopSequence": 4343,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1870-a2",
+        "stopId": "1253-a2",
         "vehicle": {
           "id": "2421-a2",
           "label": "2421"
@@ -2384,16 +2480,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.06123733520508,
-          "longitude": -117.79598236083984,
-          "bearing": 88,
-          "speed": 0
+          "latitude": 34.05424118041992,
+          "longitude": -117.77471923828125,
+          "bearing": 80,
+          "speed": 10.281920433044434
         },
-        "currentStopSequence": 2480,
+        "currentStopSequence": 3092,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719008",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2889-a2",
+        "stopId": "2891-a2",
         "vehicle": {
           "id": "2422-a2",
           "label": "2422"
@@ -2410,16 +2506,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.13071823120117,
-          "longitude": -118.06633758544922,
-          "bearing": 86,
-          "speed": 3.576319932937622
+          "latitude": 34.13288879394531,
+          "longitude": -118.05075073242188,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 2437,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718997",
+        "currentStopSequence": 2940,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2261-a2",
+        "stopId": "2439-a2",
         "vehicle": {
           "id": "2423-a2",
           "label": "2423"
@@ -2436,16 +2532,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.10720443725586,
-          "longitude": -117.73786926269531,
-          "bearing": 270,
-          "speed": 8.046719551086426
+          "latitude": 34.114776611328125,
+          "longitude": -117.76908874511719,
+          "bearing": 292,
+          "speed": 9.387840270996094
         },
-        "currentStopSequence": 1685,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718974",
+        "currentStopSequence": 2006,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719451",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1309-a2",
+        "stopId": "1234-a2",
         "vehicle": {
           "id": "2424-a2",
           "label": "2424"
@@ -2462,16 +2558,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 34.083377838134766,
-          "longitude": -117.95789337158203,
-          "bearing": 310,
-          "speed": 11.623040199279785
+          "latitude": 34.0921516418457,
+          "longitude": -117.9787826538086,
+          "bearing": 266,
+          "speed": 12.964159965515137
         },
-        "currentStopSequence": 3722,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719005",
+        "currentStopSequence": 4232,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719460",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2929-a2",
+        "stopId": "2944-a2",
         "vehicle": {
           "id": "2425-a2",
           "label": "2425"
@@ -2488,16 +2584,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.03472137451172,
-          "longitude": -117.97447967529297,
-          "bearing": 52,
-          "speed": 8.046719551086426
+          "latitude": 34.05360794067383,
+          "longitude": -117.9542007446289,
+          "bearing": 42,
+          "speed": 0
         },
-        "currentStopSequence": 1511,
+        "currentStopSequence": 2025,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718987",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "546-a2",
+        "stopId": "2511-a2",
         "vehicle": {
           "id": "2427-a2",
           "label": "2427"
@@ -2514,16 +2610,42 @@
           "routeId": "20493"
         },
         "position": {
-          "latitude": 34.028873443603516,
-          "longitude": -118.22846984863281,
-          "bearing": 254,
-          "speed": 21.90496063232422
+          "latitude": 34.0341911315918,
+          "longitude": -118.2667236328125,
+          "bearing": 202,
+          "speed": 0
         },
-        "timestamp": "1790718992",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2428-a2",
           "label": "2428"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2429-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b2719-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20190"
+        },
+        "position": {
+          "latitude": 34.048728942871094,
+          "longitude": -117.83134460449219,
+          "bearing": 246,
+          "speed": 17.88159942626953
+        },
+        "currentStopSequence": 52,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719448",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2565-a2",
+        "vehicle": {
+          "id": "2429-a2",
+          "label": "2429"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -2542,7 +2664,7 @@
           "bearing": 228,
           "speed": 0
         },
-        "timestamp": "1790719010",
+        "timestamp": "1790719460",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2500-a2",
@@ -2560,16 +2682,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.12865447998047,
-          "longitude": -117.88190460205078,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 34.128692626953125,
+          "longitude": -117.86355590820312,
+          "bearing": 88,
+          "speed": 9.387840270996094
         },
-        "currentStopSequence": 737,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719011",
+        "currentStopSequence": 998,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719445",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2262-a2",
+        "stopId": "2272-a2",
         "vehicle": {
           "id": "2503-a2",
           "label": "2503"
@@ -2586,16 +2708,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 33.99253463745117,
-          "longitude": -117.92963409423828,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 33.9981575012207,
+          "longitude": -117.93098449707031,
+          "bearing": 6,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719010",
+        "currentStopSequence": 214,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719444",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2199-a2",
+        "stopId": "1381-a2",
         "vehicle": {
           "id": "2504-a2",
           "label": "2504"
@@ -2617,7 +2739,7 @@
           "bearing": 196,
           "speed": 0
         },
-        "timestamp": "1790719002",
+        "timestamp": "1790719062",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2505-a2",
@@ -2635,19 +2757,45 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.079307556152344,
-          "longitude": -117.71918487548828,
-          "bearing": 0,
-          "speed": 1.3411200046539307
+          "latitude": 34.095008850097656,
+          "longitude": -117.70679473876953,
+          "bearing": 82,
+          "speed": 10.281920433044434
         },
-        "currentStopSequence": 4676,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719002",
+        "currentStopSequence": 5181,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719442",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1825-a2",
+        "stopId": "509-a2",
         "vehicle": {
           "id": "2506-a2",
           "label": "2506"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2507-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b27CA-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20480"
+        },
+        "position": {
+          "latitude": 34.0697135925293,
+          "longitude": -117.92671966552734,
+          "bearing": 4,
+          "speed": 8.046719551086426
+        },
+        "currentStopSequence": 69,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719458",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2646-a2",
+        "vehicle": {
+          "id": "2507-a2",
+          "label": "2507"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -2661,19 +2809,68 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.07520294189453,
-          "longitude": -118.01397705078125,
+          "latitude": 34.072052001953125,
+          "longitude": -118.0403060913086,
           "bearing": 262,
-          "speed": 11.175999641418457
+          "speed": 0
         },
-        "currentStopSequence": 4086,
+        "currentStopSequence": 4489,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718978",
+        "timestamp": "1790719460",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2223-a2",
+        "stopId": "2960-a2",
         "vehicle": {
           "id": "2509-a2",
           "label": "2509"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2510-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t609-b27E9-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20707"
+        },
+        "position": {
+          "latitude": 34.0343132019043,
+          "longitude": -118.26670837402344,
+          "bearing": 192,
+          "speed": 0
+        },
+        "timestamp": "1790719469",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "vehicle": {
+          "id": "2510-a2",
+          "label": "2510"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2511-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b271F-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20178"
+        },
+        "position": {
+          "latitude": 34.07119369506836,
+          "longitude": -118.04324340820312,
+          "bearing": 84,
+          "speed": 0
+        },
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719464",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1172-a2",
+        "vehicle": {
+          "id": "2511-a2",
+          "label": "2511"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -2687,16 +2884,13 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.09571075439453,
-          "longitude": -117.69495391845703,
-          "bearing": 190,
-          "speed": 0
+          "latitude": 34.09516906738281,
+          "longitude": -117.6977310180664,
+          "bearing": 268,
+          "speed": 4.023359775543213
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719009",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2028-a2",
         "vehicle": {
           "id": "2512-a2",
           "label": "2512"
@@ -2713,16 +2907,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.0617790222168,
-          "longitude": -117.89017486572266,
+          "latitude": 34.07615661621094,
+          "longitude": -117.88127899169922,
           "bearing": 0,
-          "speed": 8.046719551086426
+          "speed": 11.623040199279785
         },
-        "currentStopSequence": 3303,
+        "currentStopSequence": 3709,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718986",
+        "timestamp": "1790719430",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "941-a2",
+        "stopId": "2302-a2",
         "vehicle": {
           "id": "2514-a2",
           "label": "2514"
@@ -2744,7 +2938,7 @@
           "bearing": 300,
           "speed": 0
         },
-        "timestamp": "1790719002",
+        "timestamp": "1790719452",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2515-a2",
@@ -2762,16 +2956,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.139976501464844,
-          "longitude": -118.0341567993164,
-          "bearing": 90,
-          "speed": 9.387840270996094
+          "latitude": 34.1401481628418,
+          "longitude": -118.01972961425781,
+          "bearing": 88,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 3484,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718983",
+        "currentStopSequence": 3706,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1812-a2",
+        "stopId": "1757-a2",
         "vehicle": {
           "id": "2516-a2",
           "label": "2516"
@@ -2783,7 +2977,7 @@
       "id": "2517-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t54B-b27A3-sl4-v50-a2",
+          "tripId": "t5E6-b27A3-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20280"
         },
@@ -2795,7 +2989,7 @@
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719007",
+        "timestamp": "1790719457",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2199-a2",
         "vehicle": {
@@ -2814,16 +3008,16 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.128700256347656,
-          "longitude": -117.93376922607422,
-          "bearing": 252,
-          "speed": 1.788159966468811
+          "latitude": 34.09577178955078,
+          "longitude": -117.93434143066406,
+          "bearing": 180,
+          "speed": 11.175999641418457
         },
-        "currentStopSequence": 837,
+        "currentStopSequence": 1457,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718987",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1880-a2",
+        "stopId": "1875-a2",
         "vehicle": {
           "id": "2518-a2",
           "label": "2518"
@@ -2840,16 +3034,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.09052276611328,
-          "longitude": -117.71481323242188,
-          "bearing": 270,
-          "speed": 4.470399856567383
+          "latitude": 34.098506927490234,
+          "longitude": -117.70313262939453,
+          "bearing": 18,
+          "speed": 12.964159965515137
         },
-        "currentStopSequence": 410,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719007",
+        "currentStopSequence": 959,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "38-a2",
+        "stopId": "509-a2",
         "vehicle": {
           "id": "2521-a2",
           "label": "2521"
@@ -2866,16 +3060,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.06002426147461,
-          "longitude": -117.87493133544922,
-          "bearing": 122,
+          "latitude": 34.04322814941406,
+          "longitude": -117.84793853759766,
+          "bearing": 142,
           "speed": 0
         },
-        "currentStopSequence": 3771,
+        "currentStopSequence": 4236,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718989",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3195-a2",
+        "stopId": "2544-a2",
         "vehicle": {
           "id": "2522-a2",
           "label": "2522"
@@ -2892,16 +3086,16 @@
           "routeId": "20493"
         },
         "position": {
-          "latitude": 34.04606246948242,
-          "longitude": -118.2629623413086,
-          "bearing": 38,
+          "latitude": 34.05585479736328,
+          "longitude": -118.24909210205078,
+          "bearing": 128,
           "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719004",
+        "currentStopSequence": 610,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1188-a2",
+        "stopId": "1745-a2",
         "vehicle": {
           "id": "2523-a2",
           "label": "2523"
@@ -2918,16 +3112,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.0125732421875,
-          "longitude": -117.92346954345703,
-          "bearing": 198,
-          "speed": 11.175999641418457
+          "latitude": 33.992164611816406,
+          "longitude": -117.93054962158203,
+          "bearing": 154,
+          "speed": 6.705599784851074
         },
-        "currentStopSequence": 2919,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718989",
+        "currentStopSequence": 0,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719453",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "770-a2",
+        "stopId": "2199-a2",
         "vehicle": {
           "id": "2524-a2",
           "label": "2524"
@@ -2944,16 +3138,16 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.02058029174805,
-          "longitude": -117.95494079589844,
-          "bearing": 146,
-          "speed": 10.281920433044434
+          "latitude": 34.03801727294922,
+          "longitude": -117.94976806640625,
+          "bearing": 6,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 1667,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718975",
+        "currentStopSequence": 2082,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719446",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2479-a2",
+        "stopId": "1663-a2",
         "vehicle": {
           "id": "2526-a2",
           "label": "2526"
@@ -2970,16 +3164,16 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.05018997192383,
-          "longitude": -117.82683563232422,
-          "bearing": 72,
-          "speed": 20.11680030822754
+          "latitude": 34.04907989501953,
+          "longitude": -117.81193542480469,
+          "bearing": 212,
+          "speed": 0
         },
-        "currentStopSequence": 4628,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719008",
+        "currentStopSequence": 0,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719448",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2564-a2",
+        "stopId": "2563-a2",
         "vehicle": {
           "id": "2527-a2",
           "label": "2527"
@@ -2996,16 +3190,16 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.05302810668945,
-          "longitude": -118.00191497802734,
-          "bearing": 308,
-          "speed": 0
+          "latitude": 34.06829833984375,
+          "longitude": -118.02716064453125,
+          "bearing": 310,
+          "speed": 1.3411200046539307
         },
-        "currentStopSequence": 3537,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718996",
+        "currentStopSequence": 4245,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719462",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3369-a2",
+        "stopId": "3407-a2",
         "vehicle": {
           "id": "2529-a2",
           "label": "2529"
@@ -3022,16 +3216,16 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.06300354003906,
-          "longitude": -117.93036651611328,
-          "bearing": 222,
-          "speed": 10.281920433044434
+          "latitude": 34.04807662963867,
+          "longitude": -117.9468765258789,
+          "bearing": 0,
+          "speed": 0
         },
-        "currentStopSequence": 2407,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718994",
+        "currentStopSequence": 2848,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1505-a2",
+        "stopId": "1519-a2",
         "vehicle": {
           "id": "2700-a2",
           "label": "2700"
@@ -3048,16 +3242,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 34.068603515625,
-          "longitude": -118.01619720458984,
-          "bearing": 202,
-          "speed": 2.6822400093078613
+          "latitude": 34.072269439697266,
+          "longitude": -118.03424072265625,
+          "bearing": 260,
+          "speed": 12.070079803466797
         },
-        "currentStopSequence": 5357,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718982",
+        "currentStopSequence": 5769,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2954-a2",
+        "stopId": "2962-a2",
         "vehicle": {
           "id": "2701-a2",
           "label": "2701"
@@ -3074,16 +3268,16 @@
           "routeId": "20280"
         },
         "position": {
-          "latitude": 34.13726043701172,
-          "longitude": -117.90731811523438,
-          "bearing": 270,
+          "latitude": 34.12181854248047,
+          "longitude": -117.90776824951172,
+          "bearing": 182,
           "speed": 0
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 466,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "177-a2",
+        "stopId": "2384-a2",
         "vehicle": {
           "id": "2702-a2",
           "label": "2702"
@@ -3100,16 +3294,45 @@
           "routeId": "20269"
         },
         "position": {
-          "latitude": 34.07239532470703,
-          "longitude": -118.0452651977539,
-          "bearing": 88,
-          "speed": 4.917439937591553
+          "latitude": 34.07246780395508,
+          "longitude": -118.04415893554688,
+          "bearing": 34,
+          "speed": 0
         },
-        "timestamp": "1790718984",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1172-a2",
         "vehicle": {
           "id": "2704-a2",
           "label": "2704"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2705-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5EB-b2743-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20190"
+        },
+        "position": {
+          "latitude": 34.05051803588867,
+          "longitude": -117.81752014160156,
+          "bearing": 282,
+          "speed": 0
+        },
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719478",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2563-a2",
+        "vehicle": {
+          "id": "2705-a2",
+          "label": "2705"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -3123,12 +3346,12 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 33.9924430847168,
+          "latitude": 33.99241638183594,
           "longitude": -117.9304428100586,
           "bearing": 84,
           "speed": 0
         },
-        "timestamp": "1790718993",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2708-a2",
@@ -3146,14 +3369,14 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.095611572265625,
-          "longitude": -117.69441223144531,
-          "bearing": 148,
-          "speed": 5.364480018615723
+          "latitude": 34.09534454345703,
+          "longitude": -117.69395446777344,
+          "bearing": 72,
+          "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718967",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2028-a2",
         "vehicle": {
@@ -3172,16 +3395,16 @@
           "routeId": "20270"
         },
         "position": {
-          "latitude": 34.069236755371094,
-          "longitude": -118.027587890625,
-          "bearing": 46,
-          "speed": 0
+          "latitude": 34.087249755859375,
+          "longitude": -118.0162353515625,
+          "bearing": 22,
+          "speed": 8.046719551086426
         },
-        "currentStopSequence": 650,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719011",
+        "currentStopSequence": 1280,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719436",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3441-a2",
+        "stopId": "3423-a2",
         "vehicle": {
           "id": "2710-a2",
           "label": "2710"
@@ -3198,16 +3421,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.08744812011719,
-          "longitude": -117.95600128173828,
-          "bearing": 74,
-          "speed": 7.599679946899414
+          "latitude": 34.08873748779297,
+          "longitude": -117.92054748535156,
+          "bearing": 100,
+          "speed": 15.199359893798828
         },
-        "currentStopSequence": 1816,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719001",
+        "currentStopSequence": 2595,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719444",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2228-a2",
+        "stopId": "3197-a2",
         "vehicle": {
           "id": "2713-a2",
           "label": "2713"
@@ -3224,16 +3447,16 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.061256408691406,
-          "longitude": -117.89034271240234,
-          "bearing": 182,
-          "speed": 4.470399856567383
+          "latitude": 34.06126022338867,
+          "longitude": -117.9165267944336,
+          "bearing": 272,
+          "speed": 0
         },
-        "currentStopSequence": 1917,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719008",
+        "currentStopSequence": 2395,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "942-a2",
+        "stopId": "916-a2",
         "vehicle": {
           "id": "2717-a2",
           "label": "2717"
@@ -3250,16 +3473,16 @@
           "routeId": "20284"
         },
         "position": {
-          "latitude": 34.07526397705078,
-          "longitude": -117.88605499267578,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 34.08250427246094,
+          "longitude": -117.8793716430664,
+          "bearing": 88,
+          "speed": 15.199359893798828
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 199,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718982",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2744-a2",
+        "stopId": "2202-a2",
         "vehicle": {
           "id": "2719-a2",
           "label": "2719"
@@ -3276,16 +3499,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.05956268310547,
-          "longitude": -117.87413024902344,
-          "bearing": 134,
-          "speed": 12.070079803466797
+          "latitude": 34.043373107910156,
+          "longitude": -117.84620666503906,
+          "bearing": 68,
+          "speed": 14.752320289611816
         },
-        "currentStopSequence": 1004,
+        "currentStopSequence": 1612,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3228-a2",
+        "stopId": "2544-a2",
         "vehicle": {
           "id": "2720-a2",
           "label": "2720"
@@ -3302,12 +3525,12 @@
           "routeId": "20270"
         },
         "position": {
-          "latitude": 34.07200241088867,
-          "longitude": -118.04583740234375,
+          "latitude": 34.071964263916016,
+          "longitude": -118.04576110839844,
           "bearing": 264,
           "speed": 0
         },
-        "timestamp": "1790718989",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2721-a2",
@@ -3325,14 +3548,14 @@
           "routeId": "20281"
         },
         "position": {
-          "latitude": 34.13591766357422,
-          "longitude": -117.88521575927734,
+          "latitude": 34.13589859008789,
+          "longitude": -117.88519287109375,
           "bearing": 92,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719003",
+        "timestamp": "1790719453",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1239-a2",
         "vehicle": {
@@ -3346,21 +3569,21 @@
       "id": "2725-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t523-b2751-sl4-v50-a2",
+          "tripId": "t5AF-b2751-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20185"
         },
         "position": {
-          "latitude": 33.99555587768555,
-          "longitude": -117.92984008789062,
-          "bearing": 302,
-          "speed": 2.2351999282836914
+          "latitude": 33.98133087158203,
+          "longitude": -117.97274017333984,
+          "bearing": 262,
+          "speed": 0
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 780,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719005",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2199-a2",
+        "stopId": "1659-a2",
         "vehicle": {
           "id": "2725-a2",
           "label": "2725"
@@ -3377,12 +3600,12 @@
           "routeId": "20274"
         },
         "position": {
-          "latitude": 34.069549560546875,
-          "longitude": -117.93738555908203,
-          "bearing": 34,
-          "speed": 12.070079803466797
+          "latitude": 34.06903076171875,
+          "longitude": -117.92697143554688,
+          "bearing": 184,
+          "speed": 9.834879875183105
         },
-        "timestamp": "1790718992",
+        "timestamp": "1790719449",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2726-a2",
@@ -3400,14 +3623,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.079036712646484,
-          "longitude": -117.74102020263672,
-          "bearing": 256,
-          "speed": 4.470399856567383
+          "latitude": 34.059322357177734,
+          "longitude": -117.75215911865234,
+          "bearing": 278,
+          "speed": 0.44703999161720276
         },
         "currentStopSequence": 1080,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719007",
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719465",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2158-a2",
         "vehicle": {
@@ -3426,16 +3649,45 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 34.146217346191406,
-          "longitude": -117.90894317626953,
+          "latitude": 34.1462287902832,
+          "longitude": -117.90896606445312,
           "bearing": 214,
           "speed": 0
         },
-        "timestamp": "1790718996",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719327",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2386-a2",
         "vehicle": {
           "id": "2730-a2",
           "label": "2730"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "2731-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5AF-b274D-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20194"
+        },
+        "position": {
+          "latitude": 34.046241760253906,
+          "longitude": -117.84196472167969,
+          "bearing": 214,
+          "speed": 4.023359775543213
+        },
+        "currentStopSequence": 507,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719465",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1650-a2",
+        "vehicle": {
+          "id": "2731-a2",
+          "label": "2731"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -3449,12 +3701,12 @@
           "routeId": "20493"
         },
         "position": {
-          "latitude": 34.092830657958984,
-          "longitude": -118.2414321899414,
-          "bearing": 138,
-          "speed": 8.046719551086426
+          "latitude": 34.053924560546875,
+          "longitude": -118.21424102783203,
+          "bearing": 178,
+          "speed": 18.32863998413086
         },
-        "timestamp": "1790718989",
+        "timestamp": "1790719470",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2732-a2",
@@ -3472,16 +3724,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.107177734375,
-          "longitude": -117.71926879882812,
-          "bearing": 270,
-          "speed": 3.576319932937622
+          "latitude": 34.11210632324219,
+          "longitude": -117.76114654541016,
+          "bearing": 294,
+          "speed": 0
         },
-        "currentStopSequence": 1367,
+        "currentStopSequence": 1878,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719009",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1216-a2",
+        "stopId": "1322-a2",
         "vehicle": {
           "id": "2733-a2",
           "label": "2733"
@@ -3498,16 +3750,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.06040954589844,
-          "longitude": -117.75025177001953,
-          "bearing": 354,
+          "latitude": 34.05543518066406,
+          "longitude": -117.75010681152344,
+          "bearing": 178,
           "speed": 0
         },
-        "currentStopSequence": 3293,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "currentStopSequence": 3659,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1416-a2",
+        "stopId": "2005-a2",
         "vehicle": {
           "id": "2734-a2",
           "label": "2734"
@@ -3524,16 +3776,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.12922668457031,
-          "longitude": -117.83448028564453,
-          "bearing": 268,
-          "speed": 14.305279731750488
+          "latitude": 34.12884521484375,
+          "longitude": -117.86760711669922,
+          "bearing": 270,
+          "speed": 8.940799713134766
         },
-        "currentStopSequence": 2846,
+        "currentStopSequence": 3240,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718988",
+        "timestamp": "1790719436",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2279-a2",
+        "stopId": "2289-a2",
         "vehicle": {
           "id": "2735-a2",
           "label": "2735"
@@ -3550,16 +3802,16 @@
           "routeId": "20480"
         },
         "position": {
-          "latitude": 34.07078170776367,
-          "longitude": -117.8900375366211,
-          "bearing": 356,
-          "speed": 9.834879875183105
+          "latitude": 34.07231140136719,
+          "longitude": -117.90239715576172,
+          "bearing": 270,
+          "speed": 23.693119049072266
         },
-        "currentStopSequence": 4930,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "currentStopSequence": 5453,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2847-a2",
+        "stopId": "494-a2",
         "vehicle": {
           "id": "2736-a2",
           "label": "2736"
@@ -3576,16 +3828,16 @@
           "routeId": "20187"
         },
         "position": {
-          "latitude": 34.146095275878906,
-          "longitude": -118.1138916015625,
-          "bearing": 270,
-          "speed": 6.2585601806640625
+          "latitude": 34.14601135253906,
+          "longitude": -118.13114166259766,
+          "bearing": 268,
+          "speed": 7.152639865875244
         },
-        "currentStopSequence": 3841,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718988",
+        "currentStopSequence": 4200,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719440",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1053-a2",
+        "stopId": "1069-a2",
         "vehicle": {
           "id": "2738-a2",
           "label": "2738"
@@ -3597,21 +3849,18 @@
       "id": "2739-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t5A0-b27BF-sl4-v50-a2",
+          "tripId": "t654-b27BF-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20295"
         },
         "position": {
-          "latitude": 34.06943130493164,
-          "longitude": -117.8077163696289,
-          "bearing": 346,
-          "speed": 12.517120361328125
+          "latitude": 34.1065788269043,
+          "longitude": -117.81481170654297,
+          "bearing": 92,
+          "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719008",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "875-a2",
         "vehicle": {
           "id": "2739-a2",
           "label": "2739"
@@ -3620,24 +3869,50 @@
       }
     },
     {
+      "id": "2740-a2",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b27B5-sl4-v50-a2",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "20295"
+        },
+        "position": {
+          "latitude": 34.10658645629883,
+          "longitude": -117.79694366455078,
+          "bearing": 90,
+          "speed": 13.858240127563477
+        },
+        "currentStopSequence": 1200,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719455",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2563-a2",
+        "vehicle": {
+          "id": "2740-a2",
+          "label": "2740"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
       "id": "2741-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t578-b27B3-sl4-v50-a2",
+          "tripId": "t5AD-b27B3-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20284"
         },
         "position": {
-          "latitude": 34.12908172607422,
-          "longitude": -117.88138580322266,
-          "bearing": 178,
-          "speed": 4.470399856567383
+          "latitude": 34.13161849975586,
+          "longitude": -117.86442565917969,
+          "bearing": 308,
+          "speed": 9.387840270996094
         },
-        "currentStopSequence": 264,
+        "currentStopSequence": 532,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718985",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2270-a2",
+        "stopId": "1498-a2",
         "vehicle": {
           "id": "2741-a2",
           "label": "2741"
@@ -3654,14 +3929,14 @@
           "routeId": "20194"
         },
         "position": {
-          "latitude": 34.020633697509766,
-          "longitude": -117.95771789550781,
+          "latitude": 34.02063751220703,
+          "longitude": -117.95772552490234,
           "bearing": 28,
           "speed": 0
         },
         "currentStopSequence": 2203,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718996",
+        "timestamp": "1790719476",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1695-a2",
         "vehicle": {
@@ -3685,7 +3960,7 @@
           "bearing": 92,
           "speed": 0
         },
-        "timestamp": "1790719002",
+        "timestamp": "1790719453",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "vehicle": {
           "id": "2747-a2",
@@ -3703,16 +3978,16 @@
           "routeId": "20269"
         },
         "position": {
-          "latitude": 34.034576416015625,
-          "longitude": -118.08514404296875,
-          "bearing": 280,
-          "speed": 0
+          "latitude": 34.03626251220703,
+          "longitude": -118.0804672241211,
+          "bearing": 144,
+          "speed": 11.623040199279785
         },
-        "currentStopSequence": 0,
+        "currentStopSequence": 138,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718989",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2859-a2",
+        "stopId": "2035-a2",
         "vehicle": {
           "id": "2749-a2",
           "label": "2749"
@@ -3735,8 +4010,8 @@
           "speed": 0
         },
         "currentStopSequence": 0,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718995",
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1172-a2",
         "vehicle": {
@@ -3755,16 +4030,16 @@
           "routeId": "20498"
         },
         "position": {
-          "latitude": 34.05433654785156,
-          "longitude": -118.23778533935547,
-          "bearing": 0,
-          "speed": 0
+          "latitude": 34.063560485839844,
+          "longitude": -118.16024017333984,
+          "bearing": 56,
+          "speed": 21.45792007446289
         },
-        "currentStopSequence": 944,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718991",
+        "currentStopSequence": 1500,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719451",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2591-a2",
+        "stopId": "896-a2",
         "vehicle": {
           "id": "2751-a2",
           "label": "2751"
@@ -3781,16 +4056,16 @@
           "routeId": "20188"
         },
         "position": {
-          "latitude": 34.11353302001953,
-          "longitude": -117.7661361694336,
+          "latitude": 34.107852935791016,
+          "longitude": -117.7489013671875,
           "bearing": 112,
           "speed": 0
         },
-        "currentStopSequence": 2242,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719003",
+        "currentStopSequence": 2528,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719450",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1233-a2",
+        "stopId": "1243-a2",
         "vehicle": {
           "id": "2753-a2",
           "label": "2753"
@@ -3807,16 +4082,16 @@
           "routeId": "20190"
         },
         "position": {
-          "latitude": 34.075439453125,
-          "longitude": -117.88992309570312,
-          "bearing": 272,
-          "speed": 0.8940799832344055
+          "latitude": 34.087154388427734,
+          "longitude": -117.90767669677734,
+          "bearing": 2,
+          "speed": 0
         },
-        "currentStopSequence": 1440,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718991",
+        "currentStopSequence": 2280,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3192-a2",
+        "stopId": "3304-a2",
         "vehicle": {
           "id": "2754-a2",
           "label": "2754"
@@ -3833,13 +4108,16 @@
           "routeId": "20295"
         },
         "position": {
-          "latitude": 34.0505485534668,
-          "longitude": -117.81953430175781,
-          "bearing": 270,
-          "speed": 0
+          "latitude": 34.048179626464844,
+          "longitude": -117.832275390625,
+          "bearing": 66,
+          "speed": 18.32863998413086
         },
-        "timestamp": "1790718996",
+        "currentStopSequence": 240,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2562-a2",
         "vehicle": {
           "id": "2755-a2",
           "label": "2755"
@@ -3856,42 +4134,19 @@
           "routeId": "20185"
         },
         "position": {
-          "latitude": 33.99624252319336,
-          "longitude": -117.96822357177734,
-          "bearing": 194,
-          "speed": 0
+          "latitude": 33.99116516113281,
+          "longitude": -117.94062042236328,
+          "bearing": 94,
+          "speed": 21.45792007446289
         },
-        "currentStopSequence": 4337,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718992",
+        "currentStopSequence": 5357,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719446",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1685-a2",
+        "stopId": "1020-a2",
         "vehicle": {
           "id": "2756-a2",
           "label": "2756"
-        },
-        "occupancyStatus": "EMPTY"
-      }
-    },
-    {
-      "id": "2757-a2",
-      "vehicle": {
-        "trip": {
-          "tripId": "t5EB-b27AD-sl4-v50-a2",
-          "scheduleRelationship": "SCHEDULED",
-          "routeId": "20281"
-        },
-        "position": {
-          "latitude": 34.135902404785156,
-          "longitude": -117.88502502441406,
-          "bearing": 92,
-          "speed": 0
-        },
-        "timestamp": "1790718920",
-        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "vehicle": {
-          "id": "2757-a2",
-          "label": "2757"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -3905,16 +4160,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 33.996551513671875,
-          "longitude": -117.8885269165039,
-          "bearing": 184,
+          "latitude": 33.98843002319336,
+          "longitude": -117.90348815917969,
+          "bearing": 272,
           "speed": 0
         },
-        "currentStopSequence": 5159,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718983",
+        "currentStopSequence": 5440,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719472",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2080-a2",
+        "stopId": "1014-a2",
         "vehicle": {
           "id": "2758-a2",
           "label": "2758"
@@ -3923,50 +4178,53 @@
       }
     },
     {
-      "id": "2760-a2",
+      "id": "2759-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t524-b279C-sl4-v50-a2",
+          "tripId": "t5DC-b277D-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
-          "routeId": "20187"
+          "routeId": "20480"
         },
         "position": {
-          "latitude": 34.135921478271484,
-          "longitude": -117.9072265625,
-          "bearing": 104,
-          "speed": 0
+          "latitude": 34.089256286621094,
+          "longitude": -117.68978118896484,
+          "bearing": 180,
+          "speed": 9.387840270996094
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "currentStopSequence": 270,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "177-a2",
+        "stopId": "2042-a2",
         "vehicle": {
-          "id": "2760-a2",
-          "label": "2760"
+          "id": "2759-a2",
+          "label": "2759"
         },
         "occupancyStatus": "EMPTY"
       }
     },
     {
-      "id": "2761-a2",
+      "id": "2760-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t5FF-b2789-sl4-v50-a2",
+          "tripId": "t5AF-b279C-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
-          "routeId": "20269"
+          "routeId": "20187"
         },
         "position": {
-          "latitude": 34.072025299072266,
-          "longitude": -118.04582214355469,
-          "bearing": 306,
-          "speed": 0
+          "latitude": 34.13371276855469,
+          "longitude": -117.9164047241211,
+          "bearing": 270,
+          "speed": 8.046719551086426
         },
-        "timestamp": "1790718765",
+        "currentStopSequence": 208,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719449",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1332-a2",
         "vehicle": {
-          "id": "2761-a2",
-          "label": "2761"
+          "id": "2760-a2",
+          "label": "2760"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -3980,16 +4238,16 @@
           "routeId": "20178"
         },
         "position": {
-          "latitude": 34.02430725097656,
-          "longitude": -117.90314483642578,
-          "bearing": 16,
-          "speed": 13.411199569702148
+          "latitude": 34.034488677978516,
+          "longitude": -117.91773223876953,
+          "bearing": 308,
+          "speed": 0
         },
-        "currentStopSequence": 2017,
+        "currentStopSequence": 2325,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718969",
+        "timestamp": "1790719438",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "599-a2",
+        "stopId": "24-a2",
         "vehicle": {
           "id": "2762-a2",
           "label": "2762"
@@ -4006,16 +4264,16 @@
           "routeId": "20861"
         },
         "position": {
-          "latitude": 34.12942123413086,
-          "longitude": -117.97755432128906,
-          "bearing": 360,
-          "speed": 9.387840270996094
+          "latitude": 34.136531829833984,
+          "longitude": -117.96652221679688,
+          "bearing": 356,
+          "speed": 6.2585601806640625
         },
-        "currentStopSequence": 993,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718980",
+        "currentStopSequence": 1262,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719468",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1159-a2",
+        "stopId": "3108-a2",
         "vehicle": {
           "id": "2803-a2",
           "label": "2803"
@@ -4032,16 +4290,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.068729400634766,
-          "longitude": -117.93797302246094,
-          "bearing": 308,
-          "speed": 8.940799713134766
+          "latitude": 34.07038879394531,
+          "longitude": -117.9617919921875,
+          "bearing": 260,
+          "speed": 12.517120361328125
         },
-        "currentStopSequence": 3110,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719001",
+        "currentStopSequence": 3335,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2925-a2",
+        "stopId": "497-a2",
         "vehicle": {
           "id": "2900-a2",
           "label": "2900"
@@ -4058,14 +4316,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.04296875,
-          "longitude": -118.26422119140625,
-          "bearing": 218,
-          "speed": 10.728960037231445
+          "latitude": 34.033958435058594,
+          "longitude": -118.26681518554688,
+          "bearing": 124,
+          "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718952",
+        "timestamp": "1790719459",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "3623-a2",
         "vehicle": {
@@ -4084,14 +4342,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.062564849853516,
-          "longitude": -117.79972076416016,
-          "bearing": 48,
-          "speed": 14.305279731750488
+          "latitude": 34.06199645996094,
+          "longitude": -117.76404571533203,
+          "bearing": 88,
+          "speed": 0
         },
         "currentStopSequence": 6240,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718986",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2158-a2",
         "vehicle": {
@@ -4105,7 +4363,7 @@
       "id": "2905-a2",
       "vehicle": {
         "trip": {
-          "tripId": "t4E7-b27EA-sl4-v50-a2",
+          "tripId": "t641-b27EA-sl4-v50-a2",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "20707"
         },
@@ -4115,11 +4373,8 @@
           "bearing": 0,
           "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719006",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2028-a2",
         "vehicle": {
           "id": "2905-a2",
           "label": "2905"
@@ -4136,16 +4391,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.06093215942383,
-          "longitude": -117.81376647949219,
-          "bearing": 52,
-          "speed": 2.2351999282836914
+          "latitude": 34.072269439697266,
+          "longitude": -117.90106201171875,
+          "bearing": 270,
+          "speed": 28.610559463500977
         },
-        "currentStopSequence": 2040,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719002",
+        "currentStopSequence": 2792,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719453",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "3698-a2",
+        "stopId": "494-a2",
         "vehicle": {
           "id": "2908-a2",
           "label": "2908"
@@ -4162,14 +4417,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.06082534790039,
-          "longitude": -117.74176025390625,
+          "latitude": 34.081600189208984,
+          "longitude": -117.71929168701172,
           "bearing": 88,
-          "speed": 1.788159966468811
+          "speed": 21.010879516601562
         },
         "currentStopSequence": 7155,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719005",
+        "timestamp": "1790719455",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "3719-a2",
         "vehicle": {
@@ -4188,16 +4443,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.054256439208984,
-          "longitude": -118.23780059814453,
-          "bearing": 2,
-          "speed": 4.023359775543213
+          "latitude": 34.05603790283203,
+          "longitude": -118.19725799560547,
+          "bearing": 90,
+          "speed": 22.351999282836914
         },
-        "currentStopSequence": 1135,
+        "currentStopSequence": 1521,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719001",
+        "timestamp": "1790719462",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "549-a2",
+        "stopId": "2593-a2",
         "vehicle": {
           "id": "2911-a2",
           "label": "2911"
@@ -4214,16 +4469,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.065250396728516,
-          "longitude": -117.9987564086914,
-          "bearing": 82,
-          "speed": 14.305279731750488
+          "latitude": 34.0711669921875,
+          "longitude": -117.94306945800781,
+          "bearing": 122,
+          "speed": 11.623040199279785
         },
-        "currentStopSequence": 3712,
+        "currentStopSequence": 3991,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718984",
+        "timestamp": "1790719441",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "496-a2",
+        "stopId": "2665-a2",
         "vehicle": {
           "id": "2912-a2",
           "label": "2912"
@@ -4240,14 +4495,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.04365921020508,
-          "longitude": -118.26139068603516,
-          "bearing": 310,
+          "latitude": 34.0340576171875,
+          "longitude": -118.2669906616211,
+          "bearing": 124,
           "speed": 0
         },
         "currentStopSequence": 6182,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718984",
+        "timestamp": "1790719463",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1602-a2",
         "vehicle": {
@@ -4266,16 +4521,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.072418212890625,
-          "longitude": -118.04523468017578,
-          "bearing": 90,
-          "speed": 4.917439937591553
+          "latitude": 34.06792068481445,
+          "longitude": -118.0264892578125,
+          "bearing": 88,
+          "speed": 6.2585601806640625
         },
-        "currentStopSequence": 2460,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719009",
+        "currentStopSequence": 3756,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719478",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1171-a2",
+        "stopId": "496-a2",
         "vehicle": {
           "id": "2915-a2",
           "label": "2915"
@@ -4292,14 +4547,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.06154251098633,
-          "longitude": -117.78667449951172,
-          "bearing": 268,
-          "speed": 16.09343910217285
+          "latitude": 34.05807876586914,
+          "longitude": -117.81839752197266,
+          "bearing": 194,
+          "speed": 0
         },
         "currentStopSequence": 2040,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718995",
+        "timestamp": "1790719469",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "3698-a2",
         "vehicle": {
@@ -4318,14 +4573,14 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.07147979736328,
-          "longitude": -118.042236328125,
-          "bearing": 354,
-          "speed": 0
+          "latitude": 34.072391510009766,
+          "longitude": -118.04457092285156,
+          "bearing": 92,
+          "speed": 4.917439937591553
         },
         "currentStopSequence": 4260,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718991",
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1171-a2",
         "vehicle": {
@@ -4344,16 +4599,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.07167053222656,
-          "longitude": -118.12684631347656,
-          "bearing": 268,
-          "speed": 25.928319931030273
+          "latitude": 34.05580520629883,
+          "longitude": -118.21157836914062,
+          "bearing": 300,
+          "speed": 11.175999641418457
         },
-        "currentStopSequence": 4824,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790719008",
+        "currentStopSequence": 5042,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719450",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "897-a2",
+        "stopId": "2594-a2",
         "vehicle": {
           "id": "2921-a2",
           "label": "2921"
@@ -4370,16 +4625,16 @@
           "routeId": "20707"
         },
         "position": {
-          "latitude": 34.052345275878906,
-          "longitude": -118.250244140625,
-          "bearing": 36,
-          "speed": 10.728960037231445
+          "latitude": 34.05451202392578,
+          "longitude": -118.23921203613281,
+          "bearing": 126,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 593,
+        "currentStopSequence": 1135,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718997",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2094-a2",
+        "stopId": "549-a2",
         "vehicle": {
           "id": "2922-a2",
           "label": "2922"
@@ -4396,16 +4651,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.06185531616211,
-          "longitude": -117.77478790283203,
-          "bearing": 268,
-          "speed": 12.517120361328125
+          "latitude": 34.05421829223633,
+          "longitude": -117.8134536743164,
+          "bearing": 218,
+          "speed": 0
         },
-        "currentStopSequence": 623,
+        "currentStopSequence": 1402,
         "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718987",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1709-a1",
+        "stopId": "3141-a1",
         "vehicle": {
           "id": "3102-a1",
           "label": "3102"
@@ -4422,16 +4677,16 @@
           "routeId": "10197"
         },
         "position": {
-          "latitude": 34.08091354370117,
-          "longitude": -117.76097869873047,
-          "bearing": 160,
-          "speed": 18.775680541992188
+          "latitude": 34.07326126098633,
+          "longitude": -117.78068542480469,
+          "bearing": 268,
+          "speed": 14.305279731750488
         },
-        "currentStopSequence": 1490,
+        "currentStopSequence": 1892,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719006",
+        "timestamp": "1790719463",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2669-a1",
+        "stopId": "3049-a1",
         "vehicle": {
           "id": "3106-a1",
           "label": "3106"
@@ -4448,13 +4703,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.02729415893555,
+          "latitude": 34.02729797363281,
           "longitude": -117.76219940185547,
           "bearing": 58,
           "speed": 0
         },
-        "timestamp": "1790718994",
+        "currentStopSequence": 0,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "2857-a1",
         "vehicle": {
           "id": "3108-a1",
           "label": "3108"
@@ -4466,21 +4724,18 @@
       "id": "3110-a1",
       "vehicle": {
         "trip": {
-          "tripId": "t578-b15FFE-sl4-v4A-a1",
+          "tripId": "t609-b15FFE-sl4-v4A-a1",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.02766036987305,
-          "longitude": -117.76172637939453,
-          "bearing": 48,
+          "latitude": 34.027679443359375,
+          "longitude": -117.76171112060547,
+          "bearing": 46,
           "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719002",
+        "timestamp": "1790719452",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2857-a1",
         "vehicle": {
           "id": "3110-a1",
           "label": "3110"
@@ -4497,16 +4752,16 @@
           "routeId": "10282"
         },
         "position": {
-          "latitude": 33.99631881713867,
-          "longitude": -117.9638671875,
-          "bearing": 88,
-          "speed": 0
+          "latitude": 33.993350982666016,
+          "longitude": -117.93141174316406,
+          "bearing": 16,
+          "speed": 3.1292800903320312
         },
-        "currentStopSequence": 2324,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718986",
+        "currentStopSequence": 0,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719449",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1701-a1",
+        "stopId": "2199-a1",
         "vehicle": {
           "id": "3111-a1",
           "label": "3111"
@@ -4523,16 +4778,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.06292724609375,
-          "longitude": -118.03589630126953,
-          "bearing": 268,
-          "speed": 8.046719551086426
+          "latitude": 34.07261276245117,
+          "longitude": -118.04570770263672,
+          "bearing": 272,
+          "speed": 0.44703999161720276
         },
-        "currentStopSequence": 5144,
+        "currentStopSequence": 0,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718970",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1471-a1",
+        "stopId": "1171-a1",
         "vehicle": {
           "id": "3114-a1",
           "label": "3114"
@@ -4549,14 +4804,14 @@
           "routeId": "10853"
         },
         "position": {
-          "latitude": 34.02235794067383,
-          "longitude": -117.77812194824219,
-          "bearing": 280,
+          "latitude": 34.022361755371094,
+          "longitude": -117.77818298339844,
+          "bearing": 278,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719010",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1156-a1",
         "vehicle": {
@@ -4575,16 +4830,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.09534454345703,
-          "longitude": -117.74869537353516,
-          "bearing": 180,
-          "speed": 8.940799713134766
+          "latitude": 34.08046340942383,
+          "longitude": -117.75275421142578,
+          "bearing": 172,
+          "speed": 9.834879875183105
         },
-        "currentStopSequence": 660,
+        "currentStopSequence": 1152,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719000",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1428-a1",
+        "stopId": "1421-a1",
         "vehicle": {
           "id": "3119-a1",
           "label": "3119"
@@ -4601,16 +4856,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.057857513427734,
-          "longitude": -117.98323822021484,
-          "bearing": 130,
+          "latitude": 34.04193878173828,
+          "longitude": -117.95868682861328,
+          "bearing": 132,
           "speed": 0
         },
-        "currentStopSequence": 1601,
+        "currentStopSequence": 2100,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718990",
+        "timestamp": "1790719466",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "611-a1",
+        "stopId": "565-a1",
         "vehicle": {
           "id": "3123-a1",
           "label": "3123"
@@ -4627,19 +4882,45 @@
           "routeId": "10482"
         },
         "position": {
-          "latitude": 34.04755401611328,
-          "longitude": -117.80960083007812,
-          "bearing": 292,
-          "speed": 0
+          "latitude": 34.06208038330078,
+          "longitude": -117.796142578125,
+          "bearing": 154,
+          "speed": 12.070079803466797
         },
-        "currentStopSequence": 3125,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719004",
+        "currentStopSequence": 3677,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719461",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2559-a1",
+        "stopId": "2826-a1",
         "vehicle": {
           "id": "3125-a1",
           "label": "3125"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "3126-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b16048-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10291"
+        },
+        "position": {
+          "latitude": 34.112159729003906,
+          "longitude": -117.76192474365234,
+          "bearing": 112,
+          "speed": 1.3411200046539307
+        },
+        "currentStopSequence": 151,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719460",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "1347-a1",
+        "vehicle": {
+          "id": "3126-a1",
+          "label": "3126"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -4653,14 +4934,14 @@
           "routeId": "10286"
         },
         "position": {
-          "latitude": 34.0614013671875,
+          "latitude": 34.06139373779297,
           "longitude": -117.75165557861328,
           "bearing": 0,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718998",
+        "timestamp": "1790719478",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2158-a1",
         "vehicle": {
@@ -4679,16 +4960,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.09605407714844,
-          "longitude": -117.74847412109375,
-          "bearing": 360,
-          "speed": 0
+          "latitude": 34.1114501953125,
+          "longitude": -117.75909423828125,
+          "bearing": 290,
+          "speed": 6.2585601806640625
         },
-        "currentStopSequence": 2160,
+        "currentStopSequence": 2793,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790719010",
+        "timestamp": "1790719458",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1427-a1",
+        "stopId": "2858-a1",
         "vehicle": {
           "id": "3131-a1",
           "label": "3131"
@@ -4705,19 +4986,45 @@
           "routeId": "10285"
         },
         "position": {
-          "latitude": 33.97465515136719,
-          "longitude": -117.98539733886719,
-          "bearing": 230,
-          "speed": 16.09343910217285
+          "latitude": 33.94901657104492,
+          "longitude": -118.0064926147461,
+          "bearing": 212,
+          "speed": 4.023359775543213
         },
-        "currentStopSequence": 1549,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719003",
+        "currentStopSequence": 2100,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1003-a1",
+        "stopId": "2685-a1",
         "vehicle": {
           "id": "3134-a1",
           "label": "3134"
+        },
+        "occupancyStatus": "EMPTY"
+      }
+    },
+    {
+      "id": "3135-a1",
+      "vehicle": {
+        "trip": {
+          "tripId": "t5DC-b16047-sl4-v4A-a1",
+          "scheduleRelationship": "SCHEDULED",
+          "routeId": "10197"
+        },
+        "position": {
+          "latitude": 34.09251403808594,
+          "longitude": -117.69939422607422,
+          "bearing": 272,
+          "speed": 12.517120361328125
+        },
+        "currentStopSequence": 142,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719475",
+        "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
+        "stopId": "38-a1",
+        "vehicle": {
+          "id": "3135-a1",
+          "label": "3135"
         },
         "occupancyStatus": "EMPTY"
       }
@@ -4731,16 +5038,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.049530029296875,
-          "longitude": -117.96868896484375,
-          "bearing": 310,
-          "speed": 11.623040199279785
+          "latitude": 34.065956115722656,
+          "longitude": -117.98326110839844,
+          "bearing": 38,
+          "speed": 0
         },
-        "currentStopSequence": 3515,
+        "currentStopSequence": 3944,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719009",
+        "timestamp": "1790719456",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "594-a1",
+        "stopId": "803-a1",
         "vehicle": {
           "id": "3136-a1",
           "label": "3136"
@@ -4757,14 +5064,14 @@
           "routeId": "10482"
         },
         "position": {
-          "latitude": 33.99212646484375,
-          "longitude": -117.93006134033203,
-          "bearing": 92,
-          "speed": 0
+          "latitude": 33.99167251586914,
+          "longitude": -117.93186950683594,
+          "bearing": 184,
+          "speed": 3.576319932937622
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719011",
+        "timestamp": "1790719453",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2199-a1",
         "vehicle": {
@@ -4783,16 +5090,16 @@
           "routeId": "10492"
         },
         "position": {
-          "latitude": 34.09482955932617,
-          "longitude": -117.70491790771484,
-          "bearing": 34,
-          "speed": 6.705599784851074
+          "latitude": 34.09616470336914,
+          "longitude": -117.7364273071289,
+          "bearing": 276,
+          "speed": 0
         },
-        "currentStopSequence": 598,
+        "currentStopSequence": 1071,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718961",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "511-a1",
+        "stopId": "881-a1",
         "vehicle": {
           "id": "3140-a1",
           "label": "3140"
@@ -4809,16 +5116,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.03078079223633,
-          "longitude": -117.88816833496094,
-          "bearing": 42,
-          "speed": 12.070079803466797
+          "latitude": 34.044334411621094,
+          "longitude": -117.84423065185547,
+          "bearing": 52,
+          "speed": 16.09343910217285
         },
-        "currentStopSequence": 3003,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719000",
+        "currentStopSequence": 3480,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719445",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "553-a1",
+        "stopId": "3709-a1",
         "vehicle": {
           "id": "3142-a1",
           "label": "3142"
@@ -4842,7 +5149,7 @@
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718998",
+        "timestamp": "1790719448",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "2158-a1",
         "vehicle": {
@@ -4861,16 +5168,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.039093017578125,
-          "longitude": -117.95447540283203,
-          "bearing": 312,
-          "speed": 11.175999641418457
+          "latitude": 34.05814743041992,
+          "longitude": -117.98338317871094,
+          "bearing": 308,
+          "speed": 12.964159965515137
         },
-        "currentStopSequence": 3291,
-        "currentStatus": "IN_TRANSIT_TO",
-        "timestamp": "1790718977",
+        "currentStopSequence": 3807,
+        "currentStatus": "STOPPED_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2975-a1",
+        "stopId": "612-a1",
         "vehicle": {
           "id": "3144-a1",
           "label": "3144"
@@ -4887,16 +5194,16 @@
           "routeId": "10488"
         },
         "position": {
-          "latitude": 34.072479248046875,
-          "longitude": -118.04459381103516,
-          "bearing": 78,
+          "latitude": 34.072486877441406,
+          "longitude": -118.03273010253906,
+          "bearing": 68,
           "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790719011",
+        "currentStopSequence": 278,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719475",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1171-a1",
+        "stopId": "3133-a1",
         "vehicle": {
           "id": "3145-a1",
           "label": "3145"
@@ -4913,16 +5220,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.05973434448242,
-          "longitude": -117.75357818603516,
-          "bearing": 180,
+          "latitude": 34.06211853027344,
+          "longitude": -117.75032043457031,
+          "bearing": 356,
           "speed": 0
         },
-        "currentStopSequence": 0,
-        "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718998",
+        "currentStopSequence": 160,
+        "currentStatus": "INCOMING_AT",
+        "timestamp": "1790719473",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "2158-a1",
+        "stopId": "1719-a1",
         "vehicle": {
           "id": "3146-a1",
           "label": "3146"
@@ -4939,16 +5246,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.02652359008789,
-          "longitude": -117.90401458740234,
-          "bearing": 280,
-          "speed": 10.281920433044434
+          "latitude": 34.036285400390625,
+          "longitude": -117.93586730957031,
+          "bearing": 276,
+          "speed": 13.411199569702148
         },
-        "currentStopSequence": 2444,
+        "currentStopSequence": 2896,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718996",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "599-a1",
+        "stopId": "572-a1",
         "vehicle": {
           "id": "3147-a1",
           "label": "3147"
@@ -4965,16 +5272,16 @@
           "routeId": "10292"
         },
         "position": {
-          "latitude": 34.06243896484375,
-          "longitude": -117.74949645996094,
-          "bearing": 268,
+          "latitude": 34.05972671508789,
+          "longitude": -117.75357055664062,
+          "bearing": 176,
           "speed": 0
         },
-        "currentStopSequence": 1239,
+        "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718983",
+        "timestamp": "1790719454",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1726-a1",
+        "stopId": "2158-a1",
         "vehicle": {
           "id": "3148-a1",
           "label": "3148"
@@ -4986,19 +5293,19 @@
       "id": "3149-a1",
       "vehicle": {
         "trip": {
-          "tripId": "t523-b15FC2-sl4-v4A-a1",
+          "tripId": "t5DC-b15FC2-sl4-v4A-a1",
           "scheduleRelationship": "SCHEDULED",
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.07248306274414,
-          "longitude": -118.04513549804688,
-          "bearing": 86,
+          "latitude": 34.071903228759766,
+          "longitude": -118.04307556152344,
+          "bearing": 88,
           "speed": 0
         },
         "currentStopSequence": 0,
         "currentStatus": "STOPPED_AT",
-        "timestamp": "1790718990",
+        "timestamp": "1790719477",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
         "stopId": "1171-a1",
         "vehicle": {
@@ -5017,16 +5324,16 @@
           "routeId": "10291"
         },
         "position": {
-          "latitude": 34.04454040527344,
-          "longitude": -117.74958038330078,
-          "bearing": 358,
-          "speed": 0
+          "latitude": 34.05942916870117,
+          "longitude": -117.7510986328125,
+          "bearing": 100,
+          "speed": 0.8940799832344055
         },
-        "currentStopSequence": 537,
+        "currentStopSequence": 1020,
         "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718990",
+        "timestamp": "1790719474",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1461-a1",
+        "stopId": "2158-a1",
         "vehicle": {
           "id": "3150-a1",
           "label": "3150"
@@ -5043,16 +5350,16 @@
           "routeId": "10486"
         },
         "position": {
-          "latitude": 34.06277084350586,
-          "longitude": -118.03111267089844,
-          "bearing": 90,
-          "speed": 0
+          "latitude": 34.0643424987793,
+          "longitude": -118.00424194335938,
+          "bearing": 80,
+          "speed": 2.6822400093078613
         },
-        "currentStopSequence": 645,
-        "currentStatus": "INCOMING_AT",
-        "timestamp": "1790718991",
+        "currentStopSequence": 1568,
+        "currentStatus": "IN_TRANSIT_TO",
+        "timestamp": "1790719467",
         "congestionLevel": "UNKNOWN_CONGESTION_LEVEL",
-        "stopId": "1476-a1",
+        "stopId": "802-a1",
         "vehicle": {
           "id": "3151-a1",
           "label": "3151"

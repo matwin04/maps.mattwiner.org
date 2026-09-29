@@ -14,6 +14,7 @@
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
     "express-session": "^1.19.0",
+    "gtfs": "^4.21.0",
     "gtfs-realtime": "^0.4.3",
     "gtfs-to-geojson": "^3.8.8",
     "postgres": "^3.4.9"

@@ -43,7 +43,7 @@ function buildUrl(url, apiKey) {
 
 async function downloadAgencyFeeds(agency) {
     try {
-        const outputDir = `./public/feeds/${agency.agencyKey}`;
+        const outputDir = path.join(config.feedsDir, agency.agencyKey, 'realtime');
 
         ensureDirectory(outputDir);
 
@@ -126,11 +126,21 @@ async function downloadAgencyStatic(agency) {
     if (!agency.staticUrl) return;
 
     try {
-        const outputDir = path.join(config.feedsDir, agency.agencyKey);
-        const sqlitePath = path.join(config.dbDir, `${agency.agencyKey}.sqlite`);
+        const outputDir = path.join(config.feedsDir, agency.agencyKey, 'static');
+        const zipPath = path.join(outputDir, 'gtfs.zip');
+        const sqlitePath = path.join(outputDir, 'gtfs.sqlite');
 
         ensureDirectory(outputDir);
-        ensureDirectory(config.dbDir);
+
+        // Download and keep the GTFS zip
+        const res = await fetch(agency.staticUrl);
+        if (!res.ok) {
+            throw new Error(`HTTP ${res.status} downloading ${agency.staticUrl}`);
+        }
+        fs.writeFileSync(`${zipPath}.tmp`, Buffer.from(await res.arrayBuffer()));
+        fs.renameSync(`${zipPath}.tmp`, zipPath);
+
+        console.log(`[${agency.agencyKey}] Static Download Successful`);
 
         // Start from a clean database each import
         if (fs.existsSync(sqlitePath)) {
@@ -140,7 +150,7 @@ async function downloadAgencyStatic(agency) {
 
         await importGtfs({
             sqlitePath,
-            agencies: [{ url: agency.staticUrl }],
+            agencies: [{ path: zipPath }],
             verbose: false
         });
 
