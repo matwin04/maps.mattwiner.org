@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>ScriptWidget Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.24.7/babel.min.js"></script>
+    <style>
+        :root {
+            --bg: #0d0f12;
+            --panel: #14171c;
+            --panel-2: #191d23;
+            --line: #262b33;
+            --amber: #f5a623;
+            --amber-dim: #a97a2e;
+            --text: #e8e6e0;
+            --text-dim: #8b93a0;
+            --mono: 'IBM Plex Mono', ui-monospace, monospace;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            box-sizing: border-box;
+            padding-top: env(safe-area-inset-top, 0px);
+            padding-bottom: env(safe-area-inset-bottom, 0px);
+        }
+        * { box-sizing: border-box; }
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--sans);
+        }
+
+        .app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--line);
+            background: var(--panel);
+            flex-wrap: wrap;
+        }
+        header .title {
+            font-family: var(--mono);
+            font-size: 13px;
+            letter-spacing: 0.02em;
+            color: var(--amber);
+            white-space: nowrap;
+        }
+        header .title .dim { color: var(--text-dim); }
+        header .spacer { flex: 1; }
+        header input {
+            background: var(--panel-2);
+            border: 1px solid var(--line);
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 12px;
+            padding: 7px 10px;
+            border-radius: 6px;
+            width: 220px;
+            max-width: 40vw;
+        }
+        header input::placeholder { color: var(--text-dim); }
+        header label {
+            font-size: 11px;
+            color: var(--text-dim);
+            font-family: var(--mono);
+        }
+        header button {
+            background: var(--amber);
+            color: #1a1300;
+            border: none;
+            font-family: var(--sans);
+            font-weight: 600;
+            font-size: 13px;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: filter 0.15s ease;
+        }
+        header button:hover { filter: brightness(1.08); }
+        header button:active { filter: brightness(0.92); }
+        header button:disabled { background: var(--amber-dim); cursor: default; }
+
+        main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            min-height: 0;
+        }
+        @media (max-width: 860px) {
+            main { grid-template-columns: 1fr; grid-template-rows: 55% 45%; }
+        }
+
+        .editor-pane {
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+            border-right: 1px solid var(--line);
+        }
+        @media (max-width: 860px) {
+            .editor-pane { border-right: none; border-bottom: 1px solid var(--line); }
+        }
+
+        textarea#code {
+            flex: 1;
+            width: 100%;
+            resize: none;
+            border: none;
+            outline: none;
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 13px;
+            line-height: 1.55;
+            padding: 16px 18px;
+            tab-size: 2;
+        }
+
+        .log-strip {
+            border-top: 1px solid var(--line);
+            background: var(--panel);
+            max-height: 130px;
+            overflow-y: auto;
+            font-family: var(--mono);
+            font-size: 11.5px;
+        }
+        .log-strip .row {
+            padding: 6px 16px;
+            border-bottom: 1px solid var(--line);
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .log-strip .row.err { color: #ff6b6b; }
+        .log-strip .row.info { color: var(--text-dim); }
+        .log-strip:empty::after {
+            content: 'Log output appears here.';
+            display: block;
+            padding: 6px 16px;
+            color: var(--text-dim);
+        }
+
+        .preview-pane {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 28px 18px;
+            overflow: auto;
+            background:
+                    radial-gradient(circle at 30% 20%, #1d222a 0%, var(--bg) 60%);
+        }
+
+        .device {
+            width: 338px;
+            max-width: 100%;
+            border-radius: 26px;
+            background: #f4f3ef;
+            color: #111;
+            padding: 18px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.04);
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+            min-height: 120px;
+        }
+        .device-label {
+            font-family: var(--mono);
+            font-size: 10.5px;
+            color: var(--text-dim);
+            text-align: center;
+            margin-bottom: 10px;
+            letter-spacing: 0.04em;
+        }
+        .empty-state {
+            color: #9a9690;
+            font-size: 13px;
+            padding: 30px 6px;
+            text-align: center;
+        }
+
+        /* --- shimmed ScriptWidget primitives --- */
+        .sw-vstack { display: flex; flex-direction: column; }
+        .sw-hstack { display: flex; flex-direction: row; align-items: baseline; flex-wrap: wrap; }
+        .sw-frame-max { width: 100%; }
+        .sw-text { display: inline-block; }
+
+        .sw-font-title3   { font-size: 20px; font-weight: 700; }
+        .sw-font-headline { font-size: 15px; font-weight: 600; }
+        .sw-font-subheadline { font-size: 13px; font-weight: 500; }
+        .sw-font-body     { font-size: 14px; font-weight: 400; }
+        .sw-font-caption  { font-size: 11px; font-weight: 500; }
+    </style>
+</head>
+<body>
+<div class="app">
+    <header>
+        <div class="title">ScriptWidget <span class="dim">// preview</span></div>
+        <label for="param">Parameter</label>
+        <input id="param" type="text" placeholder="widget-param value" />
+        <div class="spacer"></div>
+        <button id="run">Run ▸</button>
+    </header>
+
+    <main>
+        <div class="editor-pane">
+            <textarea id="code" spellcheck="false"></textarea>
+            <div class="log-strip" id="log"></div>
+        </div>
+
+        <div class="preview-pane">
+            <div>
+                <div class="device-label">PREVIEW</div>
+                <div class="device" id="device">
+                    <div class="empty-state">Press Run to render.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script>
+    const DEFAULT_CODE = \`const stopId = ($getenv("widget-param") || "us-ca-Metro-LosAngeles-Rail_801101S").trim();
+
+const now = new Date().toISOString();
+
+const url =
+  \\\`https://api.transitous.org/api/v6/stoptimes\\\` +
+  \\\`?stopId=\\\${encodeURIComponent(stopId)}\\\` +
+  \\\`&time=\\\${encodeURIComponent(now)}\\\` +
+  \\\`&arriveBy=false\\\` +
+  \\\`&n=10\\\` +
+  \\\`&language=en\\\`;
+const result = await fetch(url);
+const data = JSON.parse(result);
+
+const stopTimes = data.stopTimes || [];
+
+function formatTime(isoString) {
+  if (!isoString) return "—";
+
+  return new Date(isoString).toLocaleTimeString([], {
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
+function delayColor(scheduled, realtime) {
+  if (!scheduled || !realtime) return "grey";
+
+  const delayMin = (new Date(realtime) - new Date(scheduled)) / 60000;
+
+  if (delayMin < 0) return "blue";
+  if (delayMin > 10) return "red";
+  if (delayMin > 3) return "orange";
+  return "green";
+}
+
+$render(
+  <vstack frame="max" padding="12" spacing="10">
+    <text font="title3">Departures</text>
+
+    {stopTimes.slice(0, 4).map((item) => {
+      const scheduled = item.place?.scheduledDeparture;
+      const realtime = item.place?.departure || scheduled;
+
+      return (
+        <vstack spacing="2">
+          <hstack spacing="6">
+            <text font="headline">{item.routeLongName || "—"}</text>
+            <text font="subheadline" color="grey">→ {item.tripTo?.name?.trim() || "—"}</text>
+          </hstack>
+          <hstack spacing="6">
+            <text font="caption" color="grey">Sched {formatTime(scheduled)}</text>
+            <text font="caption" color={delayColor(scheduled, realtime)}>Live {formatTime(realtime)}</text>
+          </hstack>
+        </vstack>
+      );
+    })}
+  </vstack>
+);
+\`;
+
+const codeEl = document.getElementById('code');
+const deviceEl = document.getElementById('device');
+const logEl = document.getElementById('log');
+const runBtn = document.getElementById('run');
+const paramEl = document.getElementById('param');
+
+codeEl.value = DEFAULT_CODE;
+
+function log(msg, cls) {
+  const row = document.createElement('div');
+  row.className = 'row ' + (cls || 'info');
+  row.textContent = msg;
+  logEl.appendChild(row);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
+function clearLog() { logEl.innerHTML = ''; }
+
+// --- shim: vstack / hstack / text -> real DOM, via a JSX pragma ---
+function h(tag, props, ...children) {
+  props = props || {};
+  const flat = children.flat(Infinity).filter(c => c !== null && c !== undefined && c !== false);
+
+  if (typeof tag === 'function') {
+    return tag({ ...props, children: flat });
+  }
+
+  let el;
+  if (tag === 'vstack' || tag === 'hstack') {
+    el = document.createElement('div');
+    el.className = tag === 'vstack' ? 'sw-vstack' : 'sw-hstack';
+    if (props.spacing) el.style.gap = props.spacing + 'px';
+    if (props.padding) el.style.padding = props.padding + 'px';
+    if (props.frame === 'max') el.classList.add('sw-frame-max');
+  } else if (tag === 'text') {
+    el = document.createElement('span');
+    el.className = 'sw-text sw-font-' + (props.font || 'body');
+    if (props.color) el.style.color = mapColor(props.color);
+  } else {
+    el = document.createElement(tag);
+  }
+
+  flat.forEach(child => {
+    if (child instanceof Node) {
+      el.appendChild(child);
+    } else {
+      el.appendChild(document.createTextNode(String(child)));
+    }
+  });
+
+  return el;
+}
+
+function mapColor(name) {
+  const map = { grey: '#8a8a8e', gray: '#8a8a8e' };
+  return map[name] || name;
+}
+
+function $render(node) {
+  deviceEl.innerHTML = '';
+  if (node instanceof Node) {
+    deviceEl.appendChild(node);
+  } else {
+    deviceEl.appendChild(document.createTextNode(String(node)));
+  }
+}
+
+function $getenv(key) {
+  if (key === 'widget-param') return paramEl.value;
+  return undefined;
+}
+
+// ScriptWidget's fetch() resolves to the response BODY TEXT, not a Response object —
+// this shim matches that so code written for ScriptWidget runs here unmodified.
+async function fetch(url, opts) {
+  const res = await window.fetch(url, opts);
+  return await res.text();
+}
+
+const AsyncFunction = Object.getPrototypeOf(async function(){}).constructor;
+
+async function run() {
+  clearLog();
+  runBtn.disabled = true;
+  runBtn.textContent = 'Running…';
+  deviceEl.innerHTML = '';
+
+  try {
+    const raw = codeEl.value;
+    const transformed = Babel.transform(raw, {
+      presets: [['react', { pragma: 'h' }]],
+      filename: 'main.jsx'
+    }).code;
+
+    const fn = new AsyncFunction('h', '$render', '$getenv', 'fetch', 'console', transformed);
+    await fn(h, $render, $getenv, fetch, {
+      log: (...a) => log(a.map(String).join(' '), 'info'),
+      error: (...a) => log(a.map(String).join(' '), 'err')
+    });
+
+    log('$FINISH', 'info');
+  } catch (err) {
+    log(String(err && err.message ? err.message : err), 'err');
+    deviceEl.innerHTML = '<div class="empty-state">' + (err && err.message ? err.message : 'Error') + '</div>';
+  } finally {
+    runBtn.disabled = false;
+    runBtn.textContent = 'Run ▸';
+  }
+}
+
+runBtn.addEventListener('click', run);
+codeEl.addEventListener('keydown', (e) => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') run();
+});
+</script>
+</body>
+</html>

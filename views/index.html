@@ -2,9 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matt Maps</title>
+    <style>
+        :root {
+            --bg: #fafafa; --fg: #1a1a1a; --muted: #6b6b6b;
+            --line: #e2e2e2; --card: #fff;
+            --ok: #1a7f37; --stale: #b58100; --missing: #c62828;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111; --fg: #eaeaea; --muted: #9a9a9a;
+                --line: #2c2c2c; --card: #181818;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0; padding: 24px 16px; background: var(--bg); color: var(--fg);
+            font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+        }
+        main { max-width: 1100px; margin: 0 auto; }
+        header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+        h1 { font-size: 22px; margin: 0; }
+        nav a { color: inherit; margin-right: 14px; }
+        .btn {
+            display: inline-block; padding: 7px 14px; border: 1px solid var(--line);
+            border-radius: 6px; background: var(--card); color: inherit; text-decoration: none;
+        }
+        .btn:hover { border-color: var(--muted); }
+        .table-wrap { margin-top: 20px; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--card); }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+        tr:last-child td { border-bottom: none; }
+        th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+        td.num { font-variant-numeric: tabular-nums; text-align: right; }
+        th.num { text-align: right; }
+        code { font-size: 12px; color: var(--muted); }
+        .dim { color: var(--muted); }
+        .badge {
+            display: inline-block; padding: 2px 8px; border-radius: 999px;
+            font-size: 12px; font-weight: 600; border: 1px solid currentColor;
+        }
+        .badge.ok { color: var(--ok); }
+        .badge.stale { color: var(--stale); }
+        .badge.missing { color: var(--missing); }
+        details summary { cursor: pointer; color: var(--muted); }
+        ul.files { list-style: none; margin: 6px 0 0; padding: 0; }
+        ul.files li { display: flex; justify-content: space-between; gap: 16px; white-space: nowrap; }
+        ul.files a { color: inherit; }
+    </style>
 </head>
 <body>
-    <h1>Collection of Maps</h1>
+<main>
+    <header>
+        <h1>Collection of Maps</h1>
+        <a class="btn" href="/reload">Reload Feeds</a>
+    </header>
+    <nav style="margin-top:10px">
+        <a href="/transit">Transit</a>
+        <a href="/bikes">Bikes</a>
+        <a href="/departures">Departures</a>
+        <a href="/about">About</a>
+    </nav>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+            <tr>
+                <th>Agency</th>
+                <th>Status</th>
+                <th>Feeds</th>
+                <th class="num">Routes</th>
+                <th class="num">Stops</th>
+                <th class="num">Vehicles</th>
+                <th>Last updated</th>
+                <th>Files</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each feeds}}
+            <tr>
+                <td>
+                    <strong>{{agencyName}}</strong><br>
+                    <code>{{agencyKey}}</code>
+                </td>
+                <td><span class="badge {{status}}">{{status}}</span></td>
+                <td class="dim">
+                    {{#if hasStatic}}Static{{/if}}{{#if hasStatic}}{{#if hasRealtime}} + {{/if}}{{/if}}{{#if hasRealtime}}Realtime{{/if}}
+                </td>
+                <td class="num">{{#if routeCount}}{{routeCount}}{{else}}<span class="dim">—</span>{{/if}}</td>
+                <td class="num">{{#if stopCount}}{{stopCount}}{{else}}<span class="dim">—</span>{{/if}}</td>
+                <td class="num">{{#if hasRealtime}}{{#if vehicleCount}}{{vehicleCount}}{{else}}0{{/if}}{{else}}<span class="dim">—</span>{{/if}}</td>
+                <td>
+                    {{#if lastUpdated}}{{lastUpdatedAgo}}<br><span class="dim">{{lastUpdated}}</span>
+                    {{else}}<span class="dim">never</span>{{/if}}
+                </td>
+                <td>
+                    {{#if files.length}}
+                    <details>
+                        <summary>{{files.length}} files</summary>
+                        <ul class="files">
+                            {{#each files}}
+                            <li><a href="{{url}}" target="_blank">{{name}}</a><span class="dim">{{size}}</span></li>
+                            {{/each}}
+                        </ul>
+                    </details>
+                    {{else}}<span class="dim">none</span>{{/if}}
+                </td>
+            </tr>
+            {{else}}
+            <tr><td colspan="8" class="dim">No agencies configured.</td></tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</main>
 </body>
 </html>

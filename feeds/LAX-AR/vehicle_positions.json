@@ -1,0 +1,78 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": "1790716643"
+  },
+  "entity": [
+    {
+      "id": "1",
+      "vehicle": {
+        "trip": {
+          "tripId": "923732",
+          "routeId": "4404"
+        },
+        "position": {
+          "latitude": 34.13718795776367,
+          "longitude": -118.03751373291016,
+          "bearing": 14,
+          "speed": 0.07999999821186066
+        },
+        "currentStopSequence": 11,
+        "timestamp": "1790716643",
+        "stopId": "133450",
+        "vehicle": {
+          "id": "12600",
+          "label": "59"
+        },
+        "occupancyStatus": "NO_DATA_AVAILABLE"
+      }
+    },
+    {
+      "id": "2",
+      "vehicle": {
+        "trip": {
+          "tripId": "923722",
+          "routeId": "4404"
+        },
+        "position": {
+          "latitude": 34.13182830810547,
+          "longitude": -118.04680633544922,
+          "bearing": 310,
+          "speed": 0.019999999552965164
+        },
+        "currentStopSequence": 2,
+        "timestamp": "1790716636",
+        "stopId": "133451",
+        "vehicle": {
+          "id": "12601",
+          "label": "60"
+        },
+        "occupancyStatus": "NO_DATA_AVAILABLE"
+      }
+    },
+    {
+      "id": "3",
+      "vehicle": {
+        "trip": {
+          "tripId": "467233",
+          "routeId": "4402"
+        },
+        "position": {
+          "latitude": 34.10564422607422,
+          "longitude": -118.007080078125,
+          "bearing": 203,
+          "speed": 0.019999999552965164
+        },
+        "currentStopSequence": 1,
+        "timestamp": "1790716577",
+        "stopId": "133437",
+        "vehicle": {
+          "id": "12602",
+          "label": "61"
+        },
+        "occupancyStatus": "NO_DATA_AVAILABLE"
+      }
+    }
+  ]
+}

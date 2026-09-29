@@ -1,12 +1,11 @@
 import express from "express";
+import fs from "fs";
 import path from "path";
 import dotenv from "dotenv";
 import { engine } from "express-handlebars";
 import { fileURLToPath } from "url";
-import fs from "node:fs/promises";
-import session from "express-session";
-import {setupDB} from "./db.js";
-
+import session from 'express-session';
+import {downloadFeeds} from "./realtime.js";
 dotenv.config();
 
 const app = express();
@@ -15,20 +14,107 @@ const __dirname = path.dirname(__filename);
 
 const VIEWS_DIR = path.join(__dirname, "views");
 const PARTIALS_DIR = path.join(VIEWS_DIR, "partials");
-//const DB_PATH = path.join(__dirname, "public", "data.db");
-//const FEEDS_PATH = path.join(__dirname, "public", "data","feeds");
+const DB_PATH = path.join(__dirname, "public", "data.db");
+const FEEDS_DIR = path.join(__dirname, "public", "feeds");
+const REALTIME_STALE_MS = 5 * 60 * 1000; // realtime older than 5 min = stale
+
 // =============================================
 // DATABASE INITIALIZATION
 // =============================================
 
-// DB setup — creates agencies / agency_logos / routes_logos if they don't exist yet
-setupDB();
-//setInterval(runAll, 10000);
+
+// =============================================
+// FEED STATUS
+// =============================================
+
+function readJson(filePath) {
+    try {
+        return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    } catch {
+        return null;
+    }
+}
+
+function formatSize(bytes) {
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+}
+
+function timeAgo(ms) {
+    const s = Math.round((Date.now() - ms) / 1000);
+    if (s < 60) return `${s}s ago`;
+    if (s < 3600) return `${Math.round(s / 60)}m ago`;
+    if (s < 86400) return `${Math.round(s / 3600)}h ago`;
+    return `${Math.round(s / 86400)}d ago`;
+}
+
+function formatTime(ms) {
+    return new Date(ms).toLocaleString("en-US", {
+        timeZone: "America/Los_Angeles",
+        dateStyle: "short",
+        timeStyle: "medium",
+    });
+}
+
+function getFeedStatus() {
+    if (!fs.existsSync(FEEDS_DIR)) return [];
+
+    return fs
+        .readdirSync(FEEDS_DIR, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => {
+            const key = d.name;
+            const dir = path.join(FEEDS_DIR, key);
+
+            const files = fs
+                .readdirSync(dir)
+                .filter((f) => !f.endsWith(".tmp"))
+                .sort()
+                .map((name) => {
+                    const stat = fs.statSync(path.join(dir, name));
+                    return {
+                        name,
+                        url: `/public/feeds/${key}/${name}`,
+                        size: formatSize(stat.size),
+                        mtime: stat.mtimeMs,
+                    };
+                });
+
+            const agency = readJson(path.join(dir, "agency.json"));
+            const routes = readJson(path.join(dir, "routes.json"));
+            const stops = readJson(path.join(dir, "stops.json"));
+            const vehicles = readJson(path.join(dir, "vehicles.geojson"));
+
+            const rtFile = files.find((f) => f.name === "vehicle_positions.json");
+            const hasStatic = Array.isArray(routes);
+            const hasRealtime = Boolean(rtFile);
+            const lastUpdated = files.length ? Math.max(...files.map((f) => f.mtime)) : null;
+
+            let status = "ok";
+            if (!files.length) status = "missing";
+            else if (rtFile && Date.now() - rtFile.mtime > REALTIME_STALE_MS) status = "stale";
+
+            return {
+                agencyKey: key,
+                agencyName: (Array.isArray(agency) && agency[0]?.agency_name) || key,
+                hasStatic,
+                hasRealtime,
+                routeCount: hasStatic ? routes.length : null,
+                stopCount: Array.isArray(stops) ? stops.length : null,
+                vehicleCount: vehicles?.features ? vehicles.features.length : null,
+                lastUpdated: lastUpdated ? formatTime(lastUpdated) : null,
+                lastUpdatedAgo: lastUpdated ? timeAgo(lastUpdated) : null,
+                status,
+                files,
+            };
+        });
+}
+
 // =============================================
 // VIEW & STATIC CONFIG
 // =============================================
 
-//setInterval(runAll, 15000);
 app.engine("html", engine({ extname: ".html", defaultLayout: false, partialsDir: PARTIALS_DIR }));
 app.set("view engine", "html");
 app.set("views", VIEWS_DIR);
@@ -41,27 +127,27 @@ app.use(
     session({
         secret: process.env.SESSION_SECRET || "thing-secret",
         resave: false,
-        saveUninitialized: true
+        saveUninitialized: true,
     })
 );
 
-app.get("/", async (req, res) => {
-    res.render("index");
+// =============================================
+// PAGE ROUTES
+// =============================================
+
+app.get("/", (req, res) => {
+    res.render("index", { feeds: getFeedStatus() });
+});
+app.get("/reload", async (req, res) => {
+    await downloadFeeds();
+    res.redirect("/");
+});
+app.get("/transit", async (req, res) => {
+    res.render("map");
 });
 
-app.get("/testing", async (req, res) => {
-    res.render("rawgtfs");
-});
-app.get("/maps", async (req, res) => {
-    res.render("maps");
-});
-
-app.get("/maps/bikemap", async (req, res) => {
-    res.render("bikemap");
-});
-
-app.get("/maps/transit", async (req, res) => {
-    res.render("transitland");
+app.get("/bikes", async (req, res) => {
+    res.render("bikes");
 });
 
 app.get("/departures", async (req, res) => {
@@ -72,20 +158,11 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
-// =============================================
-// DATA MANAGEMENT ENDPOINTS
-// =============================================
-
-/**
- * Get all transit sources from database
- * GET /api/sources/transit
- */
-
 if (!process.env.VERCEL && !process.env.NOW_REGION) {
     const PORT = process.env.PORT || 8088;
     app.listen(PORT, () => {
         console.log(`Server running: http://localhost:${PORT}`);
-        console.log(`Database: MICHEAL BALLS PENIS`);
+        console.log(`Database: ${DB_PATH}`);
     });
 }
 

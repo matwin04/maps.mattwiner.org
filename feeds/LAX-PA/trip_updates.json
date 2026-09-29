@@ -1,0 +1,1217 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": "1790716644"
+  },
+  "entity": [
+    {
+      "id": "3571",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3571"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 10,
+            "arrival": {
+              "time": "1790716639"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "116"
+          }
+        ],
+        "vehicle": {
+          "id": "35",
+          "label": "5034"
+        }
+      }
+    },
+    {
+      "id": "3572",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3572"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717730"
+            },
+            "departure": {
+              "time": "1790717730"
+            },
+            "stopId": "521"
+          }
+        ],
+        "vehicle": {
+          "id": "35",
+          "label": "5034"
+        }
+      }
+    },
+    {
+      "id": "3573",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3573"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719379"
+            },
+            "departure": {
+              "time": "1790719440"
+            },
+            "stopId": "637"
+          }
+        ],
+        "vehicle": {
+          "id": "35",
+          "label": "5034"
+        }
+      }
+    },
+    {
+      "id": "3597",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3597"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "departure": {
+              "time": "1790716572"
+            },
+            "stopId": "521"
+          },
+          {
+            "stopSequence": 2,
+            "arrival": {
+              "time": "1790716654"
+            },
+            "stopId": "658"
+          }
+        ],
+        "vehicle": {
+          "id": "13",
+          "label": "3219"
+        }
+      }
+    },
+    {
+      "id": "3598",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3598"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718227"
+            },
+            "departure": {
+              "time": "1790718300"
+            },
+            "stopId": "637"
+          }
+        ],
+        "vehicle": {
+          "id": "13",
+          "label": "3219"
+        }
+      }
+    },
+    {
+      "id": "3599",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3599"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719794"
+            },
+            "departure": {
+              "time": "1790719920"
+            },
+            "stopId": "521"
+          }
+        ],
+        "vehicle": {
+          "id": "13",
+          "label": "3219"
+        }
+      }
+    },
+    {
+      "id": "3626",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3626"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 11,
+            "arrival": {
+              "time": "1790716629"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "27"
+          }
+        ],
+        "vehicle": {
+          "id": "16",
+          "label": "3223"
+        }
+      }
+    },
+    {
+      "id": "3627",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3627"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717542"
+            },
+            "departure": {
+              "time": "1790717542"
+            },
+            "stopId": "637"
+          }
+        ],
+        "vehicle": {
+          "id": "16",
+          "label": "3223"
+        }
+      }
+    },
+    {
+      "id": "3628",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3628"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719047"
+            },
+            "departure": {
+              "time": "1790719047"
+            },
+            "stopId": "521"
+          }
+        ],
+        "vehicle": {
+          "id": "16",
+          "label": "3223"
+        }
+      }
+    },
+    {
+      "id": "3643",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3643"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 56,
+            "arrival": {
+              "time": "1790716642"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "150"
+          }
+        ],
+        "vehicle": {
+          "id": "10",
+          "label": "3224"
+        }
+      }
+    },
+    {
+      "id": "3644",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3644"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790716694"
+            },
+            "departure": {
+              "time": "1790717160"
+            },
+            "stopId": "148"
+          }
+        ],
+        "vehicle": {
+          "id": "10",
+          "label": "3224"
+        }
+      }
+    },
+    {
+      "id": "3655",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3655"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 24,
+            "departure": {
+              "time": "1790716573"
+            },
+            "stopId": "475"
+          },
+          {
+            "stopSequence": 25,
+            "arrival": {
+              "time": "1790716651"
+            },
+            "stopId": "569"
+          }
+        ],
+        "vehicle": {
+          "id": "5",
+          "label": "3292"
+        }
+      }
+    },
+    {
+      "id": "3656",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3656"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718785"
+            },
+            "departure": {
+              "time": "1790719320"
+            },
+            "stopId": "148"
+          }
+        ],
+        "vehicle": {
+          "id": "5",
+          "label": "3292"
+        }
+      }
+    },
+    {
+      "id": "3667",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3667"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 5,
+            "departure": {
+              "time": "1790716599"
+            },
+            "stopId": "190"
+          },
+          {
+            "stopSequence": 6,
+            "arrival": {
+              "time": "1790716671"
+            },
+            "stopId": "194"
+          }
+        ],
+        "vehicle": {
+          "id": "29",
+          "label": "3375"
+        }
+      }
+    },
+    {
+      "id": "3674",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3674"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 38,
+            "departure": {
+              "time": "1790716552"
+            },
+            "stopId": "580"
+          },
+          {
+            "stopSequence": 39,
+            "arrival": {
+              "time": "1790716652"
+            },
+            "stopId": "575"
+          }
+        ],
+        "vehicle": {
+          "id": "40",
+          "label": "5036"
+        }
+      }
+    },
+    {
+      "id": "3675",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3675"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717827"
+            },
+            "departure": {
+              "time": "1790718300"
+            },
+            "stopId": "148"
+          }
+        ],
+        "vehicle": {
+          "id": "40",
+          "label": "5036"
+        }
+      }
+    },
+    {
+      "id": "3688",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3688"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 14,
+            "departure": {
+              "time": "1790716587"
+            },
+            "stopId": "541"
+          },
+          {
+            "stopSequence": 15,
+            "arrival": {
+              "time": "1790716670"
+            },
+            "stopId": "540"
+          }
+        ],
+        "vehicle": {
+          "id": "6",
+          "label": "3296"
+        }
+      }
+    },
+    {
+      "id": "3699",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3699"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 52,
+            "departure": {
+              "time": "1790716582"
+            },
+            "stopId": "193"
+          },
+          {
+            "stopSequence": 53,
+            "arrival": {
+              "time": "1790716662"
+            },
+            "stopId": "189"
+          }
+        ],
+        "vehicle": {
+          "id": "22",
+          "label": "3225"
+        }
+      }
+    },
+    {
+      "id": "3700",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3700"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717659"
+            },
+            "departure": {
+              "time": "1790717659"
+            },
+            "stopId": "147"
+          }
+        ],
+        "vehicle": {
+          "id": "22",
+          "label": "3225"
+        }
+      }
+    },
+    {
+      "id": "3711",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3711"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 41,
+            "departure": {
+              "time": "1790716570"
+            },
+            "stopId": "649"
+          },
+          {
+            "stopSequence": 42,
+            "arrival": {
+              "time": "1790716656"
+            },
+            "stopId": "222"
+          }
+        ],
+        "vehicle": {
+          "id": "37",
+          "label": "5037"
+        }
+      }
+    },
+    {
+      "id": "3712",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3712"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718268"
+            },
+            "departure": {
+              "time": "1790718268"
+            },
+            "stopId": "147"
+          }
+        ],
+        "vehicle": {
+          "id": "37",
+          "label": "5037"
+        }
+      }
+    },
+    {
+      "id": "3716",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3716"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 29,
+            "departure": {
+              "time": "1790716554"
+            },
+            "stopId": "533"
+          },
+          {
+            "stopSequence": 30,
+            "arrival": {
+              "time": "1790716646"
+            },
+            "stopId": "505"
+          }
+        ],
+        "vehicle": {
+          "id": "4",
+          "label": "4006"
+        }
+      }
+    },
+    {
+      "id": "3717",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3717"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719425"
+            },
+            "departure": {
+              "time": "1790719620"
+            },
+            "stopId": "147"
+          }
+        ],
+        "vehicle": {
+          "id": "4",
+          "label": "4006"
+        }
+      }
+    },
+    {
+      "id": "3730",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3730"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 23,
+            "departure": {
+              "time": "1790716599"
+            },
+            "stopId": "594"
+          },
+          {
+            "stopSequence": 24,
+            "arrival": {
+              "time": "1790716680"
+            },
+            "stopId": "539"
+          }
+        ],
+        "vehicle": {
+          "id": "7",
+          "label": "5032"
+        }
+      }
+    },
+    {
+      "id": "3731",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3731"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719140"
+            },
+            "departure": {
+              "time": "1790719200"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "7",
+          "label": "5032"
+        }
+      }
+    },
+    {
+      "id": "3744",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3744"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717040"
+            },
+            "departure": {
+              "time": "1790717100"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "38",
+          "label": "5038"
+        }
+      }
+    },
+    {
+      "id": "3758",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3758"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 35,
+            "departure": {
+              "time": "1790716594"
+            },
+            "stopId": "450"
+          },
+          {
+            "stopSequence": 36,
+            "arrival": {
+              "time": "1790716652"
+            },
+            "stopId": "458"
+          }
+        ],
+        "vehicle": {
+          "id": "34",
+          "label": "5031"
+        }
+      }
+    },
+    {
+      "id": "3759",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3759"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718561"
+            },
+            "departure": {
+              "time": "1790719320"
+            },
+            "stopId": "748"
+          }
+        ],
+        "vehicle": {
+          "id": "34",
+          "label": "5031"
+        }
+      }
+    },
+    {
+      "id": "3771",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3771"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 63,
+            "departure": {
+              "time": "1790716586"
+            },
+            "stopId": "747"
+          },
+          {
+            "stopSequence": 64,
+            "arrival": {
+              "time": "1790716647"
+            },
+            "stopId": "748"
+          }
+        ],
+        "vehicle": {
+          "id": "39",
+          "label": "5039"
+        }
+      }
+    },
+    {
+      "id": "3772",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3772"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790716649"
+            },
+            "departure": {
+              "time": "1790717040"
+            },
+            "stopId": "748"
+          }
+        ],
+        "vehicle": {
+          "id": "39",
+          "label": "5039"
+        }
+      }
+    },
+    {
+      "id": "3792",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3792"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 10,
+            "arrival": {
+              "time": "1790716640"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "203"
+          }
+        ],
+        "vehicle": {
+          "id": "1",
+          "label": "3217"
+        }
+      }
+    },
+    {
+      "id": "3793",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3793"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717840"
+            },
+            "departure": {
+              "time": "1790718120"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "1",
+          "label": "3217"
+        }
+      }
+    },
+    {
+      "id": "3815",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3815"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790716643"
+            },
+            "departure": {
+              "time": "1790717580"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "11",
+          "label": "3297"
+        }
+      }
+    },
+    {
+      "id": "3816",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3816"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719340"
+            },
+            "departure": {
+              "time": "1790719560"
+            },
+            "stopId": "524"
+          }
+        ],
+        "vehicle": {
+          "id": "11",
+          "label": "3297"
+        }
+      }
+    },
+    {
+      "id": "3836",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3836"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 5,
+            "departure": {
+              "time": "1790716616"
+            },
+            "stopId": "620"
+          },
+          {
+            "stopSequence": 6,
+            "arrival": {
+              "time": "1790716665"
+            },
+            "stopId": "621"
+          }
+        ],
+        "vehicle": {
+          "id": "28",
+          "label": "3374"
+        }
+      }
+    },
+    {
+      "id": "3837",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3837"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717965"
+            },
+            "departure": {
+              "time": "1790719140"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "28",
+          "label": "3374"
+        }
+      }
+    },
+    {
+      "id": "3856",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3856"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 7,
+            "departure": {
+              "time": "1790716567"
+            },
+            "stopId": "301"
+          },
+          {
+            "stopSequence": 8,
+            "arrival": {
+              "time": "1790716646"
+            },
+            "stopId": "293"
+          }
+        ],
+        "vehicle": {
+          "id": "2",
+          "label": "3221"
+        }
+      }
+    },
+    {
+      "id": "3857",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3857"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717866"
+            },
+            "departure": {
+              "time": "1790718000"
+            },
+            "stopId": "524"
+          }
+        ],
+        "vehicle": {
+          "id": "2",
+          "label": "3221"
+        }
+      }
+    },
+    {
+      "id": "3878",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3878"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790716643"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "3",
+          "label": "4007"
+        }
+      }
+    },
+    {
+      "id": "3879",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3879"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718816"
+            },
+            "departure": {
+              "time": "1790718816"
+            },
+            "stopId": "147"
+          }
+        ],
+        "vehicle": {
+          "id": "3",
+          "label": "4007"
+        }
+      }
+    },
+    {
+      "id": "3924",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3924"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 32,
+            "departure": {
+              "time": "1790716589"
+            },
+            "stopId": "612"
+          },
+          {
+            "stopSequence": 33,
+            "arrival": {
+              "time": "1790716685"
+            },
+            "stopId": "536"
+          }
+        ],
+        "vehicle": {
+          "id": "17",
+          "label": "3220"
+        }
+      }
+    },
+    {
+      "id": "3925",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3925"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790716695"
+            },
+            "departure": {
+              "time": "1790716695"
+            },
+            "stopId": "536"
+          }
+        ],
+        "vehicle": {
+          "id": "17",
+          "label": "3220"
+        }
+      }
+    },
+    {
+      "id": "3926",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3926"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718372"
+            },
+            "departure": {
+              "time": "1790718420"
+            },
+            "stopId": "429"
+          }
+        ],
+        "vehicle": {
+          "id": "17",
+          "label": "3220"
+        }
+      }
+    },
+    {
+      "id": "3927",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3927"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790720168"
+            },
+            "departure": {
+              "time": "1790720168"
+            },
+            "stopId": "536"
+          }
+        ],
+        "vehicle": {
+          "id": "17",
+          "label": "3220"
+        }
+      }
+    },
+    {
+      "id": "3970",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3970"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 3,
+            "arrival": {
+              "time": "1790716640"
+            },
+            "departure": {
+              "time": "1790716646"
+            },
+            "stopId": "18"
+          }
+        ],
+        "vehicle": {
+          "id": "42",
+          "label": "5044"
+        }
+      }
+    },
+    {
+      "id": "3971",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3971"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790717971"
+            },
+            "departure": {
+              "time": "1790717971"
+            },
+            "stopId": "242"
+          }
+        ],
+        "vehicle": {
+          "id": "42",
+          "label": "5044"
+        }
+      }
+    },
+    {
+      "id": "3972",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3972"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790718400"
+            },
+            "departure": {
+              "time": "1790718400"
+            },
+            "stopId": "80"
+          }
+        ],
+        "vehicle": {
+          "id": "42",
+          "label": "5044"
+        }
+      }
+    },
+    {
+      "id": "3973",
+      "tripUpdate": {
+        "trip": {
+          "tripId": "3973"
+        },
+        "stopTimeUpdate": [
+          {
+            "stopSequence": 1,
+            "arrival": {
+              "time": "1790719003"
+            },
+            "departure": {
+              "time": "1790719003"
+            },
+            "stopId": "242"
+          }
+        ],
+        "vehicle": {
+          "id": "42",
+          "label": "5044"
+        }
+      }
+    }
+  ]
+}
