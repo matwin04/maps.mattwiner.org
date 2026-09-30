@@ -36,6 +36,16 @@
       "agencyKey": "LAX-BP",
       "agencyName": "Baldwin Park Shuttle",
       "staticUrl": "https://passio3.com/baldwinpark/passioTransit/gtfs/google_transit.zip"
+    },
+    {
+      "agencyKey":"BG",
+      "agencyName":"Bell Gardens Transit"
+    },
+    {
+      "agencyKey":"BB",
+      "agencyName":"Big Blue Bus",
+      "staticUrl":"https://www.bigbluebus.com/gtfs/current.zip"
     }
+
   ]
 }
